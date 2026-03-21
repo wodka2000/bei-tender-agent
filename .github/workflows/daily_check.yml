@@ -1,0 +1,36 @@
+name: BEI Tender Check
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # Ogni giorno alle 7:00 UTC (9:00 ora italiana)
+  workflow_dispatch:        # Permette avvio manuale dal sito GitHub
+
+jobs:
+  check-tenders:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tender agent
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py
+
+      - name: Salva seen_tenders.json nel repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/seen_tenders.json output/tenders.csv
+          git diff --staged --quiet || git commit -m "chore: aggiorna gare viste [skip ci]"
+          git push
