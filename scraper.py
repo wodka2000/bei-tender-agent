@@ -6,6 +6,8 @@ import requests
 from config import (
     TED_API_URL, CPV_CODES, TED_FIELDS, TEXT_KEYWORDS_IT,
     TARGET_COUNTRIES, EIB_PROCUREMENT_API, EIB_DETAIL_URL,
+    WORLDBANK_API_URL, WORLDBANK_TARGET_COUNTRIES,
+    ANAC_API_URL, ANAC_LEGAL_KEYWORDS,
 )
 
 
@@ -214,6 +216,178 @@ def _parse_eib_date(raw: str) -> str:
         return datetime.strptime(raw, "%d/%m/%Y").strftime("%Y-%m-%d")
     except ValueError:
         return ""
+
+
+def fetch_worldbank_tenders() -> list[dict]:
+    """
+    Fetch consulting services tenders from the World Bank procurement API.
+    Filters by legal keywords and target countries.
+    """
+    all_tenders = []
+    notice_types = [
+        "Request for Expression of Interest",
+        "Invitation for Bids",
+    ]
+
+    for notice_type in notice_types:
+        offset = 0
+        while offset < 500:  # Safety limit: max 500 per notice type
+            params = {
+                "format": "json",
+                "rows": 50,
+                "os": offset,
+                "notice_type_exact": notice_type,
+                "procurement_group_exact": "CS",
+                "qterm": "legal services",
+                "srce": "both",
+            }
+            try:
+                resp = requests.get(WORLDBANK_API_URL, params=params, timeout=30)
+                resp.raise_for_status()
+                data = resp.json()
+            except requests.RequestException as e:
+                print(f"  [!] World Bank API error: {e}")
+                break
+
+            notices = data.get("procnotices", [])
+            if not notices:
+                break
+
+            for notice in notices:
+                tender = _normalize_worldbank_notice(notice)
+                if tender:
+                    all_tenders.append(tender)
+
+            total = int(data.get("total", 0))
+            offset += 50
+            if offset >= total:
+                break
+
+    print(f"  Fetched {len(all_tenders)} tenders from World Bank API.")
+    return all_tenders
+
+
+def _normalize_worldbank_notice(notice: dict) -> dict | None:
+    """Convert a World Bank notice to our standard format, filtering by target country."""
+    notice_id = notice.get("id", "")
+    if not notice_id:
+        return None
+
+    country_name = notice.get("project_ctry_name", "") or ""
+    # Filter: only keep tenders in our target countries
+    if not any(tc.lower() in country_name.lower() for tc in WORLDBANK_TARGET_COUNTRIES):
+        return None
+
+    title = notice.get("bid_description", "") or notice.get("project_name", "") or "N/A"
+    buyer = notice.get("contact_organization", "") or "World Bank"
+
+    # Parse publication date — format "19-Mar-2026"
+    pub_date = ""
+    raw_date = notice.get("noticedate", "")
+    if raw_date:
+        try:
+            pub_date = datetime.strptime(raw_date, "%d-%b-%Y").strftime("%Y-%m-%d")
+        except ValueError:
+            pub_date = raw_date
+
+    # Parse deadline
+    deadline = ""
+    raw_deadline = notice.get("submission_deadline_date", "") or ""
+    if raw_deadline:
+        try:
+            deadline = datetime.fromisoformat(
+                raw_deadline.replace("Z", "+00:00")
+            ).strftime("%Y-%m-%d")
+        except (ValueError, AttributeError):
+            deadline = raw_deadline[:10]
+
+    link = f"https://projects.worldbank.org/en/projects-operations/procurement-notice/{notice_id}"
+
+    return {
+        "id": f"WB-{notice_id}",
+        "title": title,
+        "buyer": buyer,
+        "country": country_name,
+        "deadline": deadline,
+        "cpv": "",
+        "publication_date": pub_date,
+        "link": link,
+        "source": "World Bank",
+    }
+
+
+def fetch_anac_tenders() -> list[dict]:
+    """
+    Fetch Italian legal services tenders from ANAC open data API.
+    Queries for each legal keyword and deduplicates by CIG code.
+    """
+    all_tenders: dict[str, dict] = {}  # keyed by CIG to deduplicate
+
+    for keyword in ANAC_LEGAL_KEYWORDS:
+        params = {"oggetto": keyword, "page": 1, "per_page": 100}
+        try:
+            resp = requests.get(ANAC_API_URL, params=params, timeout=30)
+            if resp.status_code == 404:
+                break  # Endpoint not available
+            resp.raise_for_status()
+            data = resp.json()
+        except requests.RequestException as e:
+            print(f"  [!] ANAC API error ({keyword}): {e}")
+            continue
+
+        results = data if isinstance(data, list) else data.get("results", data.get("data", []))
+        for item in results:
+            tender = _normalize_anac_item(item)
+            if tender and tender["id"] not in all_tenders:
+                all_tenders[tender["id"]] = tender
+
+    result = list(all_tenders.values())
+    print(f"  Fetched {len(result)} tenders from ANAC API.")
+    return result
+
+
+def _normalize_anac_item(item: dict) -> dict | None:
+    """Convert an ANAC OCDS item to our standard format."""
+    # ANAC OCDS format uses 'ocid' or 'cig' as identifier
+    cig = item.get("cig") or item.get("ocid", "")
+    if not cig:
+        return None
+
+    # OCDS tender object may be nested
+    tender_obj = item.get("tender", item)
+    title = tender_obj.get("title") or item.get("oggetto", "") or "N/A"
+    buyer = ""
+    parties = item.get("parties", [])
+    for party in parties:
+        if "buyer" in party.get("roles", []):
+            buyer = party.get("name", "")
+            break
+    if not buyer:
+        buyer = item.get("stazione_appaltante", "Pubblica Amministrazione italiana")
+
+    pub_date = item.get("date", "") or item.get("data_pubblicazione", "")
+    if pub_date:
+        pub_date = pub_date[:10]
+
+    deadline = ""
+    tender_period = tender_obj.get("tenderPeriod", {})
+    if tender_period:
+        deadline = (tender_period.get("endDate") or "")[:10]
+
+    ocid = item.get("ocid", cig)
+    link = f"https://dati.anticorruzione.it/superset/dashboard/appalti/?cig={cig}"
+
+    return {
+        "id": f"ANAC-{cig}",
+        "title": title,
+        "buyer": buyer,
+        "country": "Italy",
+        "deadline": deadline,
+        "cpv": "",
+        "publication_date": pub_date,
+        "link": link,
+        "source": "ANAC",
+    }
 
 
 def _extract_multilingual(field) -> str:

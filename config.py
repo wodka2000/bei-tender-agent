@@ -17,6 +17,23 @@ TED_API_URL = "https://api.ted.europa.eu/v3/notices/search"
 EIB_PROCUREMENT_API = "https://www.eib.org/provider-eib/app/list/medias/procurements"
 EIB_DETAIL_URL = "https://www.eib.org/en/about/procurement/calls/all/{id}"
 
+# World Bank procurement API (no auth required)
+WORLDBANK_API_URL = "https://search.worldbank.org/api/v2/procnotices"
+# World Bank country names for our target countries (WB uses full names, not ISO codes)
+WORLDBANK_TARGET_COUNTRIES = [
+    # From TARGET_COUNTRIES values + WB-specific aliases
+    "Italy", "Luxembourg", "Belgium",
+    "Saudi Arabia", "Jordan", "Iraq", "Syrian Arab Republic", "Syria",
+    "Egypt", "Oman", "United Arab Emirates", "Kuwait", "Bahrain",
+    "Qatar", "Lebanon", "Libya", "Tunisia", "Morocco", "Algeria",
+    "Yemen", "West Bank and Gaza", "Palestine",
+]
+
+# ANAC (Italian National Anti-Corruption Authority) open data API
+ANAC_API_URL = "https://dati.anticorruzione.it/opendata/ocds/api/bandi"
+# Legal keywords in Italian for ANAC query
+ANAC_LEGAL_KEYWORDS = ["giuridic", "legale", "legali", "avvocato", "studio legale", "arbitrat"]
+
 # Italian keywords for TED full-text search (FT operator)
 TEXT_KEYWORDS_IT = ["giuridico", "giuridiche", "giuridica", "giuridici"]
 
