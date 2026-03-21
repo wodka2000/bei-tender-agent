@@ -17,6 +17,8 @@ from notifier import _send_message
 
 TELEGRAM_API = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
+_check_running = False
+
 
 def get_updates(offset: int) -> list[dict]:
     try:
@@ -35,12 +37,25 @@ def handle_command(text: str) -> None:
     text = text.strip().lower()
 
     if text.startswith("/check"):
-        _send_message("🔍 Avvio ricerca gare...")
-        try:
-            from main import main
-            main()
-        except Exception as e:
-            _send_message(f"❌ Errore durante la ricerca:\n<code>{e}</code>")
+        global _check_running
+        if _check_running:
+            _send_message("⏳ Ricerca già in corso, attendi...")
+            return
+
+        def run_check():
+            global _check_running
+            _check_running = True
+            _send_message("🔍 Avvio ricerca gare...")
+            try:
+                from main import main
+                main()
+                _send_message("✅ Ricerca completata.")
+            except Exception as e:
+                _send_message(f"❌ Errore durante la ricerca:\n<code>{e}</code>")
+            finally:
+                _check_running = False
+
+        threading.Thread(target=run_check, daemon=True).start()
 
     elif text.startswith("/status"):
         try:
