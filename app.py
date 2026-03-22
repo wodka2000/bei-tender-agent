@@ -1,8 +1,9 @@
 """BEI Tender Agent - Flask web app."""
 
+import os
+
 from flask import Flask, render_template, request
 
-from main import main as refresh_tenders
 from storage import load_seen_tenders
 from config import TARGET_COUNTRIES, TARGET_BUYERS
 
@@ -114,7 +115,5 @@ def index():
 
 
 if __name__ == "__main__":
-    print("Refreshing tenders before starting web app...")
-    refresh_tenders()
-    print("\nStarting web app on http://127.0.0.1:5000\n")
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False)
