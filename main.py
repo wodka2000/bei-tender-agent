@@ -6,7 +6,11 @@ filters for Italy, EU and MENA countries,
 identifies new ones, and generates a Markdown report.
 """
 
-from scraper import fetch_tenders_from_ted, fetch_eib_tenders, fetch_worldbank_tenders, fetch_anac_tenders
+from scraper import (
+    fetch_tenders_from_ted, fetch_eib_tenders,
+    fetch_worldbank_tenders, fetch_anac_tenders,
+    fetch_bahrain_tenders, fetch_tunisia_tenders,
+)
 from filters import filter_tenders
 from notifier import notify_new_tenders
 from storage import (
@@ -17,6 +21,8 @@ from storage import (
     refresh_statuses,
     write_report,
     export_csv,
+    normalize_deadline,
+    compute_status,
 )
 from config import REPORT_PATH, CSV_PATH
 
@@ -44,23 +50,36 @@ def main():
     anac_tenders = fetch_anac_tenders()
     print(f"      ANAC tenders fetched: {len(anac_tenders)}")
 
-    # 5. Filter TED by country and relevance (other sources skip this)
-    print("[5/6] Filtering TED tenders by country and relevance...")
-    relevant = filter_tenders(ted_tenders) + eib_tenders + wb_tenders + anac_tenders
+    # 5. Fetch tenders from Bahrain Tender Board
+    print("[5/6] Fetching tenders from Bahrain Tender Board...")
+    bahrain_tenders = fetch_bahrain_tenders()
+    print(f"      Bahrain tenders fetched: {len(bahrain_tenders)}")
+
+    # 6. Fetch tenders from Tunisia HAICOP
+    print("[6/6] Fetching tenders from Tunisia HAICOP...")
+    tunisia_tenders = fetch_tunisia_tenders()
+    print(f"      Tunisia tenders fetched: {len(tunisia_tenders)}")
+
+    # 7. Filter TED by country and relevance (other sources skip this)
+    print("[7/8] Filtering TED tenders by country and relevance...")
+    relevant = (
+        filter_tenders(ted_tenders)
+        + eib_tenders + wb_tenders + anac_tenders
+        + bahrain_tenders + tunisia_tenders
+    )
     print(f"      Relevant tenders: {len(relevant)}")
 
-    # 6. Load seen tenders
-    print("[6/6] Loading previously seen tenders...")
+    # 8. Load seen tenders
+    print("[8/9] Loading previously seen tenders...")
     seen = load_seen_tenders()
     print(f"      Previously seen: {len(seen)}")
 
-    # 7. Find new tenders
-    print("[7/7] Identifying new tenders...")
+    # 9. Find new tenders
     new_tenders = find_new_tenders(relevant, seen)
     print(f"      New tenders: {len(new_tenders)}")
 
-    # 8. Update storage and write report
-    print("[8/8] Updating storage and writing report...")
+    # 10. Update storage and write report
+    print("[9/9] Updating storage and writing report...")
     if new_tenders:
         seen = mark_as_seen(new_tenders, seen)
     seen = refresh_statuses(seen)
@@ -70,10 +89,14 @@ def main():
     print(f"      Report written to {REPORT_PATH}")
     print(f"      CSV exported to {CSV_PATH} ({len(seen)} tenders)")
 
-    # 7. Send Telegram notifications for new tenders
-    if new_tenders:
-        print("[7/6] Sending Telegram notifications...")
-        notify_new_tenders(new_tenders)
+    # Notifica solo i tender non scaduti
+    open_new = [
+        t for t in new_tenders
+        if compute_status(normalize_deadline(t.get("deadline", ""))) != "Closed"
+    ]
+    if open_new:
+        print(f"[*] Sending Telegram notifications ({len(open_new)} open)...")
+        notify_new_tenders(open_new)
 
     print(f"\nDone! Found {len(new_tenders)} new tender(s).")
 
