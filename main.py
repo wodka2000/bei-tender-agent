@@ -101,6 +101,7 @@ def main(sources: list[str] | None = None, category_filter: str | None = None):
         notify_new_tenders(open_new)
 
     print(f"\nDone! {len(new_tenders)} nuova/e gara/e.")
+    return len(open_new)
 
 
 if __name__ == "__main__":

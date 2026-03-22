@@ -79,8 +79,9 @@ def handle_callback(callback_query: dict) -> None:
             _send_message(f"🔍 Ricerca in corso: {lbl}...")
             try:
                 from main import main
-                main(sources=srcs, category_filter=cat)
-                _send_message("✅ Ricerca completata.")
+                found = main(sources=srcs, category_filter=cat)
+                if found == 0:
+                    _send_message("ℹ️ Nessuna gara nuova trovata.")
             except Exception as e:
                 _send_message(f"❌ Errore:\n<code>{e}</code>")
             finally:
