@@ -1,6 +1,24 @@
 """Filtering module: selects tenders relevant to our criteria."""
 
-from config import TARGET_COUNTRIES, TARGET_BUYERS, LEGAL_KEYWORDS
+from config import TARGET_COUNTRIES, TARGET_BUYERS, LEGAL_KEYWORDS, CATEGORIES
+
+
+def categorize_tender(tender: dict) -> str:
+    """Assign a category based on CPV codes first, then title/buyer keywords."""
+    cpv = tender.get("cpv", "") or tender.get("cpv_codes", "") or ""
+    text = (
+        (tender.get("title", "") or "") + " " + (tender.get("buyer", "") or "")
+    ).lower()
+
+    for category, rules in CATEGORIES.items():
+        for prefix in rules["cpv_prefixes"]:
+            if cpv and any(c.strip().startswith(prefix) for c in cpv.split(",")):
+                return category
+        for kw in rules["keywords"]:
+            if kw.lower() in text:
+                return category
+
+    return "Altro"
 
 
 def filter_tenders(tenders: list[dict]) -> list[dict]:

@@ -6,6 +6,7 @@ import os
 from datetime import date, datetime
 
 from config import SEEN_TENDERS_PATH, IGNORED_TENDERS_PATH, REPORT_PATH, CSV_PATH
+from filters import categorize_tender
 
 
 def normalize_deadline(raw: str) -> str:
@@ -96,6 +97,7 @@ def mark_as_seen(tenders: list[dict], seen: dict) -> dict:
                 "publication_date": t.get("publication_date", ""),
                 "source_url": t.get("link", ""),
                 "source": t.get("source", "TED"),
+                "category": categorize_tender(t),
                 "first_seen": now,
             }
     return seen
@@ -113,6 +115,13 @@ def refresh_statuses(seen: dict) -> dict:
             info["source_url"] = (
                 f"https://projects.worldbank.org/en/projects-operations/procurement-notice?id={notice_id}"
             )
+        # Assign category if missing
+        if not info.get("category"):
+            info["category"] = categorize_tender({
+                "cpv": info.get("cpv_codes", ""),
+                "title": info.get("title", ""),
+                "buyer": info.get("buyer", ""),
+            })
     return seen
 
 

@@ -5,60 +5,40 @@ import os
 from flask import Flask, render_template, request
 
 from storage import load_seen_tenders
-from config import TARGET_COUNTRIES, TARGET_BUYERS
+from config import TARGET_COUNTRIES, CATEGORIES, KNOWN_SOURCES
 
 app = Flask(__name__)
 
-# Country options for the select dropdown (code -> label)
 COUNTRY_OPTIONS = {code: name for code, name in sorted(TARGET_COUNTRIES.items(), key=lambda x: x[1])}
+CATEGORY_OPTIONS = sorted(CATEGORIES.keys()) + ["Altro"]
 
 
 def _apply_filters(rows, args):
-    """Filter rows in-place based on query-string parameters (AND logic)."""
     country = args.get("country", "")
     buyer = args.get("buyer", "").strip().lower()
-    cpv_types = args.getlist("cpv_type")  # list: "legal", "consulting"
+    category = args.get("category", "")
+    source = args.get("source", "")
     date_from = args.get("date_from", "")
     date_to = args.get("date_to", "")
-    only_eib = args.get("only_eib") == "1"
     only_open = args.get("only_open") == "1"
 
     filtered = []
     for t in rows:
-        # Country filter
         if country and country not in t["country"]:
             continue
-
-        # Buyer free-text filter
         if buyer and buyer not in t["buyer"].lower():
             continue
-
-        # CPV type filter (legal services only: 791xx)
-        if cpv_types:
-            cpv = t["cpv_codes"]
-            match = False
-            if "legal" in cpv_types and any(c.strip().startswith("791") for c in cpv.split(",")):
-                match = True
-            if not match:
-                continue
-
-        # Publication date range
+        if category and t.get("category", "") != category:
+            continue
+        if source and t.get("source", "") != source:
+            continue
         pub = t["publication_date"]
         if date_from and pub and pub < date_from:
             continue
         if date_to and pub and pub > date_to:
             continue
-
-        # Only EIB/BEI buyers
-        if only_eib:
-            b = t["buyer"].lower()
-            if not any(tb in b for tb in TARGET_BUYERS):
-                continue
-
-        # Only open tenders
         if only_open and t.get("status") != "Open":
             continue
-
         filtered.append(t)
 
     return filtered
@@ -80,36 +60,34 @@ def index():
             "source_url": info.get("source_url", ""),
             "status": info.get("status", "Unknown"),
             "source": info.get("source", "TED"),
+            "category": info.get("category", "Altro"),
         })
 
     rows = _apply_filters(rows, request.args)
 
-    # Sorting
-    sortable = {"title", "buyer", "country", "deadline", "publication_date", "status", "source"}
+    sortable = {"title", "buyer", "country", "deadline", "publication_date", "status", "source", "category"}
     sort_col = request.args.get("sort", "publication_date")
     if sort_col not in sortable:
         sort_col = "publication_date"
     direction = request.args.get("direction", "desc")
     if direction not in ("asc", "desc"):
         direction = "desc"
-    rows.sort(
-        key=lambda t: (t.get(sort_col) or ""),
-        reverse=(direction == "desc"),
-    )
+    rows.sort(key=lambda t: (t.get(sort_col) or ""), reverse=(direction == "desc"))
 
     return render_template(
         "index.html",
         tenders=rows,
         countries=COUNTRY_OPTIONS,
+        categories=CATEGORY_OPTIONS,
+        sources=KNOWN_SOURCES,
         sort=sort_col,
         direction=direction,
-        # Pass current filter values back to the template
         f_country=request.args.get("country", ""),
         f_buyer=request.args.get("buyer", ""),
-        f_cpv_types=request.args.getlist("cpv_type"),
+        f_category=request.args.get("category", ""),
+        f_source=request.args.get("source", ""),
         f_date_from=request.args.get("date_from", ""),
         f_date_to=request.args.get("date_to", ""),
-        f_only_eib=request.args.get("only_eib") == "1",
         f_only_open=request.args.get("only_open") == "1",
     )
 

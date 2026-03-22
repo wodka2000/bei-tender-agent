@@ -118,6 +118,68 @@ TARGET_BUYERS = [
     "unops",
 ]
 
+# Tender categories: CPV prefixes and keywords for automatic classification
+CATEGORIES = {
+    "Servizi Legali": {
+        "cpv_prefixes": ["791"],
+        "keywords": ["legal", "lawyer", "attorney", "law firm", "avvocato", "giuridic",
+                     "litigation", "arbitration", "counsel", "studio legale", "assistenza legale"],
+    },
+    "Consulenza": {
+        "cpv_prefixes": ["794"],
+        "keywords": ["consulting", "advisory", "management consulting", "consulenza",
+                     "strategia", "strategy", "due diligence"],
+    },
+    "Ingegneria": {
+        "cpv_prefixes": ["712", "713"],
+        "keywords": ["engineering", "ingegneria", "architectural", "architettura",
+                     "structural", "civil engineering", "design services"],
+    },
+    "Costruzioni": {
+        "cpv_prefixes": ["45"],
+        "keywords": ["construction", "costruzione", "building works", "civil works",
+                     "infrastructure", "rehabilitation"],
+    },
+    "Energia": {
+        "cpv_prefixes": ["09", "652"],
+        "keywords": ["energy", "energia", "electricity", "power", "renewable",
+                     "solar", "wind", "gas", "oil", "fotovoltaico"],
+    },
+    "IT / Digitale": {
+        "cpv_prefixes": ["72", "48"],
+        "keywords": ["software", "digital", "informatica", "cybersecurity",
+                     "data", "ICT", "system development", "cloud"],
+    },
+    "Servizi Finanziari": {
+        "cpv_prefixes": ["66"],
+        "keywords": ["financial", "finanziario", "audit", "accounting",
+                     "contabilità", "fiscal", "treasury"],
+    },
+    "Salute": {
+        "cpv_prefixes": ["85", "33"],
+        "keywords": ["health", "medical", "hospital", "sanità", "pharmaceutical",
+                     "healthcare", "clinical"],
+    },
+    "Formazione": {
+        "cpv_prefixes": ["80"],
+        "keywords": ["training", "formazione", "education", "capacity building",
+                     "skills development", "workshop"],
+    },
+    "Ambiente": {
+        "cpv_prefixes": ["90"],
+        "keywords": ["environment", "ambiente", "waste", "water", "climate",
+                     "pollution", "sustainability", "rifiuti"],
+    },
+    "Trasporti": {
+        "cpv_prefixes": ["60", "63", "34"],
+        "keywords": ["transport", "trasporto", "logistics", "aviation",
+                     "maritime", "shipping", "railway", "road"],
+    },
+}
+
+# Known source names (for filter dropdown in web app)
+KNOWN_SOURCES = ["TED", "EIB", "World Bank", "ANAC", "Bahrain Tender Board", "Tunisia HAICOP"]
+
 # Keywords for legal services — used by filters.py to keep only lawyer/law-firm tenders
 LEGAL_KEYWORDS = [
     "lawyer",
