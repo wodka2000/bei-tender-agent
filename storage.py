@@ -102,10 +102,17 @@ def mark_as_seen(tenders: list[dict], seen: dict) -> dict:
 
 
 def refresh_statuses(seen: dict) -> dict:
-    """Recompute status for all tenders (also normalizes legacy deadlines)."""
-    for info in seen.values():
+    """Recompute status for all tenders (also normalizes legacy deadlines and fixes URLs)."""
+    for tid, info in seen.items():
         info["deadline"] = normalize_deadline(info.get("deadline", ""))
         info["status"] = compute_status(info["deadline"])
+        # Fix old World Bank URLs (/procurement-notice/ID → ?id=ID)
+        url = info.get("source_url", "")
+        if tid.startswith("WB-") and "/procurement-notice/" in url and "?id=" not in url:
+            notice_id = tid[3:]  # strip "WB-" prefix
+            info["source_url"] = (
+                f"https://projects.worldbank.org/en/projects-operations/procurement-notice?id={notice_id}"
+            )
     return seen
 
 
