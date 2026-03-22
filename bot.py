@@ -79,9 +79,50 @@ def handle_callback(callback_query: dict) -> None:
             _send_message(f"🔍 Ricerca in corso: {lbl}...")
             try:
                 from main import main
-                found = main(sources=srcs, category_filter=cat)
-                if found == 0:
-                    _send_message("ℹ️ Nessuna gara nuova trovata.")
+                from storage import load_seen_tenders, load_ignored_tenders, compute_status, normalize_deadline
+                from filters import categorize_tender
+
+                main(sources=srcs, category_filter=None)  # aggiorna il database
+
+                # Mostra tutte le gare aperte che corrispondono ai filtri
+                seen = load_seen_tenders()
+                ignored = load_ignored_tenders()
+
+                open_tenders = []
+                for tid, info in seen.items():
+                    if tid in ignored:
+                        continue
+                    if compute_status(normalize_deadline(info.get("deadline", ""))) == "Closed":
+                        continue
+                    # Filtro fonte
+                    if srcs and info.get("source", "") not in srcs:
+                        # Mappa nomi brevi usati nel bot a nomi completi in seen_tenders
+                        src_map = {"Bahrain": "Bahrain Tender Board", "Tunisia": "Tunisia HAICOP"}
+                        mapped = [src_map.get(s, s) for s in srcs]
+                        if info.get("source", "") not in mapped:
+                            continue
+                    # Filtro categoria
+                    if cat:
+                        t_cat = info.get("category") or categorize_tender({
+                            "cpv": info.get("cpv_codes", ""),
+                            "title": info.get("title", ""),
+                            "buyer": info.get("buyer", ""),
+                        })
+                        if t_cat != cat:
+                            continue
+                    open_tenders.append({"id": tid, **info})
+
+                open_tenders.sort(key=lambda t: t.get("deadline") or "", reverse=False)
+
+                if not open_tenders:
+                    _send_message(f"ℹ️ Nessuna gara aperta per: {lbl}")
+                else:
+                    _send_message(f"📋 <b>{len(open_tenders)} gare aperte</b> — {lbl}:")
+                    for t in open_tenders[:20]:
+                        _send_message(_format_tender(t), reply_markup=_ignore_button(t["id"]))
+                    if len(open_tenders) > 20:
+                        _send_message(f'... e altre {len(open_tenders) - 20}. <a href="{WEBAPP_URL}">Apri la web app</a>')
+
             except Exception as e:
                 _send_message(f"❌ Errore:\n<code>{e}</code>")
             finally:
