@@ -155,6 +155,9 @@ TED_FIELDS = [
     "notice-type",
 ]
 
+# Web app URL
+WEBAPP_URL = "https://bei-tender-webapp.onrender.com"
+
 # File paths
 SEEN_TENDERS_PATH = "data/seen_tenders.json"
 IGNORED_TENDERS_PATH = "data/ignored_tenders.json"

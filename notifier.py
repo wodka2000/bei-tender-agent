@@ -1,7 +1,7 @@
 """Telegram notifier: sends new tender alerts via Telegram Bot API."""
 
 import requests
-from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, WEBAPP_URL
 
 TELEGRAM_API_BASE = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
@@ -105,5 +105,8 @@ def notify_new_tenders(new_tenders: list[dict]) -> None:
     for t in new_tenders:
         tid = t.get("id", "")
         _send_message(_format_tender(t), reply_markup=_ignore_button(tid))
+
+    if WEBAPP_URL:
+        _send_message(f'🌐 <a href="{WEBAPP_URL}">Apri tutte le gare</a>')
 
     print(f"  Telegram: {count} notifica/e inviata/e.")
