@@ -42,7 +42,33 @@ def handle_callback(callback_query: dict) -> None:
     chat_id = str(msg.get("chat", {}).get("id", ""))
     message_id = msg.get("message_id")
 
-    if data.startswith("ignore:"):
+    if data.startswith("check_source:"):
+        source = data[len("check_source:"):]
+        sources = None if source == "ALL" else [source]
+        label = "tutte le fonti" if source == "ALL" else source
+        answer_callback(cq_id, f"Avvio ricerca: {label}")
+        if message_id:
+            remove_inline_keyboard(chat_id, message_id)
+
+        def run_check(srcs=sources, lbl=label):
+            global _check_running
+            if _check_running:
+                _send_message("⏳ Ricerca già in corso, attendi...")
+                return
+            _check_running = True
+            _send_message(f"🔍 Ricerca in corso: {lbl}...")
+            try:
+                from main import main
+                main(sources=srcs)
+                _send_message("✅ Ricerca completata.")
+            except Exception as e:
+                _send_message(f"❌ Errore:\n<code>{e}</code>")
+            finally:
+                _check_running = False
+
+        threading.Thread(target=run_check, daemon=True).start()
+
+    elif data.startswith("ignore:"):
         tender_id = data[len("ignore:"):]
         try:
             from storage import mark_tender_ignored
@@ -59,25 +85,28 @@ def handle_command(text: str) -> None:
     text = text.strip().lower()
 
     if text.startswith("/check"):
-        global _check_running
         if _check_running:
             _send_message("⏳ Ricerca già in corso, attendi...")
             return
 
-        def run_check():
-            global _check_running
-            _check_running = True
-            _send_message("🔍 Avvio ricerca gare...")
-            try:
-                from main import main
-                main()
-                _send_message("✅ Ricerca completata.")
-            except Exception as e:
-                _send_message(f"❌ Errore durante la ricerca:\n<code>{e}</code>")
-            finally:
-                _check_running = False
-
-        threading.Thread(target=run_check, daemon=True).start()
+        keyboard = {
+            "inline_keyboard": [
+                [
+                    {"text": "TED", "callback_data": "check_source:TED"},
+                    {"text": "EIB", "callback_data": "check_source:EIB"},
+                    {"text": "World Bank", "callback_data": "check_source:World Bank"},
+                ],
+                [
+                    {"text": "ANAC", "callback_data": "check_source:ANAC"},
+                    {"text": "Bahrain", "callback_data": "check_source:Bahrain"},
+                    {"text": "Tunisia", "callback_data": "check_source:Tunisia"},
+                ],
+                [
+                    {"text": "✅ Tutte le fonti", "callback_data": "check_source:ALL"},
+                ],
+            ]
+        }
+        _send_message("🔍 Quale fonte vuoi monitorare?", reply_markup=keyboard)
 
     elif text.startswith("/gare"):
         try:
