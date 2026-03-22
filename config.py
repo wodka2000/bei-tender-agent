@@ -157,5 +157,6 @@ TED_FIELDS = [
 
 # File paths
 SEEN_TENDERS_PATH = "data/seen_tenders.json"
+IGNORED_TENDERS_PATH = "data/ignored_tenders.json"
 REPORT_PATH = "output/report.md"
 CSV_PATH = "output/tenders.csv"

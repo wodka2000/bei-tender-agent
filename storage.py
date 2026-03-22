@@ -5,7 +5,7 @@ import json
 import os
 from datetime import date, datetime
 
-from config import SEEN_TENDERS_PATH, REPORT_PATH, CSV_PATH
+from config import SEEN_TENDERS_PATH, IGNORED_TENDERS_PATH, REPORT_PATH, CSV_PATH
 
 
 def normalize_deadline(raw: str) -> str:
@@ -42,6 +42,31 @@ def save_seen_tenders(seen: dict) -> None:
     os.makedirs(os.path.dirname(SEEN_TENDERS_PATH), exist_ok=True)
     with open(SEEN_TENDERS_PATH, "w", encoding="utf-8") as f:
         json.dump(seen, f, indent=2, ensure_ascii=False)
+
+
+def load_ignored_tenders() -> set:
+    """Load the set of ignored tender IDs."""
+    if not os.path.exists(IGNORED_TENDERS_PATH):
+        return set()
+    try:
+        with open(IGNORED_TENDERS_PATH, "r", encoding="utf-8") as f:
+            return set(json.load(f))
+    except (json.JSONDecodeError, IOError):
+        return set()
+
+
+def save_ignored_tenders(ignored: set) -> None:
+    """Persist the set of ignored tender IDs."""
+    os.makedirs(os.path.dirname(IGNORED_TENDERS_PATH), exist_ok=True)
+    with open(IGNORED_TENDERS_PATH, "w", encoding="utf-8") as f:
+        json.dump(list(ignored), f, ensure_ascii=False)
+
+
+def mark_tender_ignored(tender_id: str) -> None:
+    """Add a tender ID to the ignored set."""
+    ignored = load_ignored_tenders()
+    ignored.add(tender_id)
+    save_ignored_tenders(ignored)
 
 
 def find_new_tenders(tenders: list[dict], seen: dict) -> list[dict]:

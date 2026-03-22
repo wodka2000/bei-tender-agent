@@ -3,28 +3,54 @@
 import requests
 from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 
-TELEGRAM_API = "https://api.telegram.org/bot{token}/sendMessage"
+TELEGRAM_API_BASE = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
 
-def _send_message(text: str) -> bool:
-    """Send a single message to the configured Telegram chat. Returns True on success."""
+def _send_message(text: str, reply_markup: dict = None) -> bool:
+    """Send a message to the configured Telegram chat. Returns True on success."""
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         return False
 
-    url = TELEGRAM_API.format(token=TELEGRAM_BOT_TOKEN)
     payload = {
         "chat_id": TELEGRAM_CHAT_ID,
         "text": text,
         "parse_mode": "HTML",
         "disable_web_page_preview": True,
     }
+    if reply_markup:
+        payload["reply_markup"] = reply_markup
+
     try:
-        resp = requests.post(url, json=payload, timeout=10)
+        resp = requests.post(f"{TELEGRAM_API_BASE}/sendMessage", json=payload, timeout=10)
         resp.raise_for_status()
         return True
     except requests.RequestException as e:
         print(f"  [!] Telegram notification failed: {e}")
         return False
+
+
+def answer_callback(callback_query_id: str, text: str = "") -> None:
+    """Acknowledge a Telegram inline button press."""
+    try:
+        requests.post(
+            f"{TELEGRAM_API_BASE}/answerCallbackQuery",
+            json={"callback_query_id": callback_query_id, "text": text},
+            timeout=5,
+        )
+    except requests.RequestException:
+        pass
+
+
+def remove_inline_keyboard(chat_id: str, message_id: int) -> None:
+    """Remove the inline keyboard from a previously sent message."""
+    try:
+        requests.post(
+            f"{TELEGRAM_API_BASE}/editMessageReplyMarkup",
+            json={"chat_id": chat_id, "message_id": message_id, "reply_markup": {"inline_keyboard": []}},
+            timeout=5,
+        )
+    except requests.RequestException:
+        pass
 
 
 def _format_tender(t: dict) -> str:
@@ -34,8 +60,8 @@ def _format_tender(t: dict) -> str:
     country = t.get("country") or "N/A"
     deadline = t.get("deadline") or "N/A"
     source = t.get("source") or "TED"
-    link = t.get("link") or ""
-    cpv = t.get("cpv") or ""
+    link = t.get("link") or t.get("source_url") or ""
+    cpv = t.get("cpv") or t.get("cpv_codes") or ""
 
     lines = [
         f"🔔 <b>{title}</b>",
@@ -53,9 +79,16 @@ def _format_tender(t: dict) -> str:
     return "\n".join(lines)
 
 
+def _ignore_button(tender_id: str) -> dict:
+    """Build an inline keyboard with a single Ignora button."""
+    # Callback data max 64 bytes — truncate ID if needed
+    callback_data = f"ignore:{tender_id}"[:64]
+    return {"inline_keyboard": [[{"text": "Ignora 🚫", "callback_data": callback_data}]]}
+
+
 def notify_new_tenders(new_tenders: list[dict]) -> None:
     """
-    Send Telegram notifications for new tenders.
+    Send Telegram notifications for new tenders with an Ignora button.
     Does nothing if TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID are not set.
     """
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
@@ -70,6 +103,7 @@ def notify_new_tenders(new_tenders: list[dict]) -> None:
     _send_message(header)
 
     for t in new_tenders:
-        _send_message(_format_tender(t))
+        tid = t.get("id", "")
+        _send_message(_format_tender(t), reply_markup=_ignore_button(tid))
 
     print(f"  Telegram: {count} notifica/e inviata/e.")
