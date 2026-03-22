@@ -7737,5 +7737,17 @@
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-012529001",
     "source": "EIB",
     "first_seen": "2026-03-21T07:19:13.888394"
+  },
+  "WB-OP00432161": {
+    "title": "Consultancy Services for the Development of Romania's Digital Justice Strategy",
+    "buyer": "Department for Implementation of Externally Financed Projects",
+    "country": "Romania",
+    "cpv_codes": "",
+    "deadline": "2026-03-26",
+    "status": "Open",
+    "publication_date": "2026-03-12",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-notice/OP00432161",
+    "source": "World Bank",
+    "first_seen": "2026-03-22T09:09:41.783809"
   }
 }
