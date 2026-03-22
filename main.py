@@ -28,7 +28,7 @@ from config import REPORT_PATH, CSV_PATH
 ALL_SOURCES = ["TED", "EIB", "World Bank", "ANAC", "Bahrain", "Tunisia"]
 
 
-def main(sources: list[str] | None = None):
+def main(sources: list[str] | None = None, category_filter: str | None = None):
     """
     Run the tender check.
     sources: list of source names to query, or None for all.
@@ -93,6 +93,10 @@ def main(sources: list[str] | None = None):
         t for t in new_tenders
         if compute_status(normalize_deadline(t.get("deadline", ""))) != "Closed"
     ]
+    if category_filter:
+        from filters import categorize_tender
+        open_new = [t for t in open_new if categorize_tender(t) == category_filter]
+
     if open_new:
         notify_new_tenders(open_new)
 

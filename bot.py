@@ -13,7 +13,7 @@ import time
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 import requests
-from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, WEBAPP_URL
+from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, WEBAPP_URL, CATEGORIES
 from notifier import _send_message, _format_tender, _ignore_button, answer_callback, remove_inline_keyboard
 
 TELEGRAM_API = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
@@ -44,13 +44,33 @@ def handle_callback(callback_query: dict) -> None:
 
     if data.startswith("check_source:"):
         source = data[len("check_source:"):]
-        sources = None if source == "ALL" else [source]
-        label = "tutte le fonti" if source == "ALL" else source
-        answer_callback(cq_id, f"Avvio ricerca: {label}")
+        answer_callback(cq_id)
         if message_id:
             remove_inline_keyboard(chat_id, message_id)
 
-        def run_check(srcs=sources, lbl=label):
+        # Build category keyboard — encode source in callback data
+        cat_rows = []
+        cats = list(CATEGORIES.keys())
+        for i in range(0, len(cats), 3):
+            row = [{"text": c, "callback_data": f"check_cat:{source}:{c}"[:64]} for c in cats[i:i+3]]
+            cat_rows.append(row)
+        cat_rows.append([{"text": "✅ Tutte le categorie", "callback_data": f"check_cat:{source}:ALL"[:64]}])
+        _send_message("📂 Quale categoria?", reply_markup={"inline_keyboard": cat_rows})
+
+    elif data.startswith("check_cat:"):
+        rest = data[len("check_cat:"):]
+        # Split on last ":" to separate source from category (category may contain spaces)
+        source, _, category = rest.partition(":")
+        sources = None if source == "ALL" else [source]
+        cat_filter = None if category == "ALL" else category
+        label = ("tutte le fonti" if source == "ALL" else source) + \
+                ("" if not cat_filter else f" — {cat_filter}")
+
+        answer_callback(cq_id, f"Avvio: {label}")
+        if message_id:
+            remove_inline_keyboard(chat_id, message_id)
+
+        def run_check(srcs=sources, cat=cat_filter, lbl=label):
             global _check_running
             if _check_running:
                 _send_message("⏳ Ricerca già in corso, attendi...")
@@ -59,7 +79,7 @@ def handle_callback(callback_query: dict) -> None:
             _send_message(f"🔍 Ricerca in corso: {lbl}...")
             try:
                 from main import main
-                main(sources=srcs)
+                main(sources=srcs, category_filter=cat)
                 _send_message("✅ Ricerca completata.")
             except Exception as e:
                 _send_message(f"❌ Errore:\n<code>{e}</code>")
