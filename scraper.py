@@ -1,6 +1,6 @@
 """Scraper module: fetches tenders from TED and EIB APIs."""
 
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import requests
 from config import (
@@ -231,6 +231,8 @@ def fetch_worldbank_tenders() -> list[dict]:
         "Invitation for Bids",
     ]
 
+    strdate = (datetime.now() - timedelta(days=180)).strftime("%Y-%m-%d")
+
     for notice_type in notice_types:
         offset = 0
         while offset < 500:  # Safety limit: max 500 per notice type
@@ -242,6 +244,7 @@ def fetch_worldbank_tenders() -> list[dict]:
                 "procurement_group_exact": "CS",
                 "qterm": "legal services",
                 "srce": "both",
+                "strdate": strdate,
             }
             try:
                 resp = requests.get(WORLDBANK_API_URL, params=params, timeout=30)
