@@ -8,6 +8,8 @@ from config import (
     TARGET_COUNTRIES, EIB_PROCUREMENT_API, EIB_DETAIL_URL,
     WORLDBANK_API_URL, WORLDBANK_TARGET_COUNTRIES,
     ANAC_API_URL, ANAC_LEGAL_KEYWORDS,
+    BAHRAIN_TENDERS_URL, BAHRAIN_DETAIL_URL,
+    TUNISIA_TENDERS_URL,
 )
 
 
@@ -387,6 +389,159 @@ def _normalize_anac_item(item: dict) -> dict | None:
         "publication_date": pub_date,
         "link": link,
         "source": "ANAC",
+    }
+
+
+def fetch_bahrain_tenders() -> list[dict]:
+    """
+    Fetch live tenders from Bahrain Tender Board via undocumented public AJAX endpoint.
+    No authentication required.
+    """
+    all_tenders = []
+    for view in ("NewTenders", "ToBeOpenedTenders"):
+        try:
+            resp = requests.get(
+                BAHRAIN_TENDERS_URL,
+                params={"viewFlag": view},
+                headers={"X-Requested-With": "XMLHttpRequest"},
+                timeout=30,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+        except requests.RequestException as e:
+            print(f"  [!] Bahrain Tender Board error ({view}): {e}")
+            continue
+
+        records = []
+        if isinstance(data, list) and data:
+            records = data[0].get("NewTndRecord", data[0].get("TndRecord", []))
+        elif isinstance(data, dict):
+            records = data.get("NewTndRecord", data.get("TndRecord", []))
+
+        for item in records:
+            tender = _normalize_bahrain_item(item)
+            if tender:
+                all_tenders.append(tender)
+
+    print(f"  Fetched {len(all_tenders)} tenders from Bahrain Tender Board.")
+    return all_tenders
+
+
+def _normalize_bahrain_item(item: dict) -> dict | None:
+    ref = item.get("TndRefNo", "") or item.get("tendertxnno", "")
+    if not ref:
+        return None
+
+    title = item.get("tendertitle", "") or item.get("TndDesc", "") or "N/A"
+    buyer = item.get("DivName", "Bahrain Government")
+
+    deadline = ""
+    raw_deadline = item.get("bidClosingOn", "") or ""
+    if raw_deadline:
+        # Format: "DD/MM/YYYY HH:MM AM/PM" or ISO
+        try:
+            deadline = datetime.strptime(raw_deadline[:10], "%d/%m/%Y").strftime("%Y-%m-%d")
+        except ValueError:
+            deadline = raw_deadline[:10]
+
+    pub_date = ""
+    raw_pub = item.get("bidOpeningOn", "") or ""
+    if raw_pub:
+        try:
+            pub_date = datetime.strptime(raw_pub[:10], "%d/%m/%Y").strftime("%Y-%m-%d")
+        except ValueError:
+            pub_date = raw_pub[:10]
+
+    link = BAHRAIN_DETAIL_URL.format(ref=ref)
+
+    return {
+        "id": f"BHR-{ref}",
+        "title": title,
+        "buyer": buyer,
+        "country": "Bahrain",
+        "deadline": deadline,
+        "cpv": "",
+        "publication_date": pub_date,
+        "link": link,
+        "source": "Bahrain Tender Board",
+    }
+
+
+def fetch_tunisia_tenders() -> list[dict]:
+    """
+    Fetch tenders from Tunisia's HAICOP portal (marchespublics.gov.tn).
+    Uses the DataTable AJAX JSON endpoint — no authentication required.
+    """
+    all_tenders = []
+    start = 0
+    page_size = 100
+
+    headers = {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://www.marchespublics.gov.tn/fr/appels-doffres",
+    }
+
+    while True:
+        data = {
+            "draw": str(start // page_size + 1),
+            "start": str(start),
+            "length": str(page_size),
+            "search[value]": "",
+            "search[regex]": "false",
+        }
+        try:
+            resp = requests.post(
+                TUNISIA_TENDERS_URL, data=data, headers=headers, timeout=30
+            )
+            resp.raise_for_status()
+            result = resp.json()
+        except requests.RequestException as e:
+            print(f"  [!] Tunisia HAICOP error: {e}")
+            break
+
+        records = result.get("data", [])
+        if not records:
+            break
+
+        for item in records:
+            tender = _normalize_tunisia_item(item)
+            if tender:
+                all_tenders.append(tender)
+
+        total = result.get("recordsTotal", 0)
+        start += page_size
+        if start >= min(total, 500):  # safety cap at 500
+            break
+
+    print(f"  Fetched {len(all_tenders)} tenders from Tunisia HAICOP.")
+    return all_tenders
+
+
+def _normalize_tunisia_item(item: dict) -> dict | None:
+    tid = item.get("id", "")
+    if not tid:
+        return None
+
+    title = item.get("title_fr", "") or item.get("title_ar", "") or "N/A"
+    buyer_obj = item.get("organization", {}) or {}
+    buyer = buyer_obj.get("name_fr", "") or buyer_obj.get("name_ar", "") or "N/A"
+
+    deadline = (item.get("tenderPeriod_endDate", "") or "")[:10]
+    pub_date = (item.get("publication_date", "") or "")[:10]
+
+    link = f"https://www.marchespublics.gov.tn/fr/appels-doffres/{tid}"
+
+    return {
+        "id": f"TUN-{tid}",
+        "title": title,
+        "buyer": buyer,
+        "country": "Tunisia",
+        "deadline": deadline,
+        "cpv": "",
+        "publication_date": pub_date,
+        "link": link,
+        "source": "Tunisia HAICOP",
     }
 
 

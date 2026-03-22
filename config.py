@@ -34,6 +34,13 @@ ANAC_API_URL = "https://dati.anticorruzione.it/opendata/ocds/api/bandi"
 # Legal keywords in Italian for ANAC query
 ANAC_LEGAL_KEYWORDS = ["giuridic", "legale", "legali", "avvocato", "studio legale", "arbitrat"]
 
+# Bahrain Tender Board (undocumented public AJAX endpoint, no auth)
+BAHRAIN_TENDERS_URL = "https://etendering.tenderboard.gov.bh/Tenders/publicDash"
+BAHRAIN_DETAIL_URL = "https://etendering.tenderboard.gov.bh/Tenders/nitParameterView?mode=public&tenderNo={ref}"
+
+# Tunisia HAICOP (marchespublics.gov.tn — DataTable AJAX, no auth)
+TUNISIA_TENDERS_URL = "https://www.marchespublics.gov.tn/fr/appels-doffres"
+
 # Italian keywords for TED full-text search (FT operator)
 TEXT_KEYWORDS_IT = ["giuridico", "giuridiche", "giuridica", "giuridici"]
 
