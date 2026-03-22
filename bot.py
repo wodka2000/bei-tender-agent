@@ -13,7 +13,7 @@ import time
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 import requests
-from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, WEBAPP_URL
 from notifier import _send_message, _format_tender, _ignore_button, answer_callback, remove_inline_keyboard
 
 TELEGRAM_API = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
@@ -130,7 +130,7 @@ def handle_command(text: str) -> None:
             for t in open_tenders[:15]:  # max 15 per non spammare
                 _send_message(_format_tender(t), reply_markup=_ignore_button(t["id"]))
             if len(open_tenders) > 15:
-                _send_message(f"... e altre {len(open_tenders) - 15} gare. Usa la web app per vederle tutte.")
+                _send_message(f'... e altre {len(open_tenders) - 15} gare. <a href="{WEBAPP_URL}">Apri la web app</a> per vederle tutte.')
 
         except Exception as e:
             _send_message(f"❌ Errore:\n<code>{e}</code>")

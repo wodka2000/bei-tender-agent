@@ -303,7 +303,7 @@ def _normalize_worldbank_notice(notice: dict) -> dict | None:
         except (ValueError, AttributeError):
             deadline = raw_deadline[:10]
 
-    link = f"https://projects.worldbank.org/en/projects-operations/procurement-notice?id={notice_id}"
+    link = f"https://projects.worldbank.org/en/projects-operations/procurement-detail/{notice_id}"
 
     return {
         "id": f"WB-{notice_id}",

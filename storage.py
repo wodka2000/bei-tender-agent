@@ -108,12 +108,11 @@ def refresh_statuses(seen: dict) -> dict:
     for tid, info in seen.items():
         info["deadline"] = normalize_deadline(info.get("deadline", ""))
         info["status"] = compute_status(info["deadline"])
-        # Fix old World Bank URLs (/procurement-notice/ID → ?id=ID)
-        url = info.get("source_url", "")
-        if tid.startswith("WB-") and "/procurement-notice/" in url and "?id=" not in url:
+        # Fix World Bank URLs — correct format is /procurement-detail/{ID}
+        if tid.startswith("WB-") and "/procurement-detail/" not in info.get("source_url", ""):
             notice_id = tid[3:]  # strip "WB-" prefix
             info["source_url"] = (
-                f"https://projects.worldbank.org/en/projects-operations/procurement-notice?id={notice_id}"
+                f"https://projects.worldbank.org/en/projects-operations/procurement-detail/{notice_id}"
             )
         # Assign category if missing
         if not info.get("category"):
