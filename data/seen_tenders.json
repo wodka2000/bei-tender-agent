@@ -8620,5 +8620,31 @@
     "source": "World Bank",
     "category": "Ambiente",
     "first_seen": "2026-03-23T10:18:02.873265"
+  },
+  "385329-2016": {
+    "title": "Belgio-Bruxelles: Servizi di consulenza giuridica e di rappresentanza",
+    "buyer": "Waterwegen en Zeekanaal NV / afdeling Coördinatie en Ondersteuning",
+    "country": "BEL",
+    "cpv_codes": "79110000",
+    "deadline": "2016-12-15",
+    "status": "Closed",
+    "publication_date": "2016-11-02+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/385329-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-03-24T10:11:22.860728"
+  },
+  "EIB-20170197-05": {
+    "title": "Lesotho - Design and Construction of Water Treatment Plant in Zones 6 & 7",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-05-05",
+    "status": "Open",
+    "publication_date": "2026-03-23",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170197-05",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-03-24T10:11:22.860728"
   }
 }
