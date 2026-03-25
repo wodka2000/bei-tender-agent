@@ -8646,5 +8646,70 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-03-24T10:11:22.860728"
+  },
+  "388846-2016": {
+    "title": "Italia-Savona: Servizi di consulenza giuridica",
+    "buyer": "Provincia di Savona",
+    "country": "ITA",
+    "cpv_codes": "79111000",
+    "deadline": "2016-11-24",
+    "status": "Closed",
+    "publication_date": "2016-11-04+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/388846-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-03-25T09:40:06.833034"
+  },
+  "389151-2016": {
+    "title": "Belgio-Bruxelles: Servizi di certificazione",
+    "buyer": "Infrabel — direction build",
+    "country": "BEL",
+    "cpv_codes": "79132000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-11-04+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/389151-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-03-25T09:40:06.833034"
+  },
+  "EIB-2016-0753-09": {
+    "title": "Línea D Prolongación Cochera Taller Congreso de Tucumán",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-03-06",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/2016-0753-09",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-03-25T09:40:06.833034"
+  },
+  "EIB-2019-0001-09": {
+    "title": "Supply of new low-floor 12-metres length trolleybuses with a system of autonomous running, not less than 1,000 m based on batteries, including a set of main, wearing and consumable spare parts, a set of equipment and tools for maintenance and repair, and related services, up to a total budget of € 5 million, sales taxes and customs duties excluded",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-02-25",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/2019-0001-09",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-03-25T09:40:06.833034"
+  },
+  "EIB-2015-0503-40": {
+    "title": "Supply of new low floor 12-metres length trolleybuses including a set of main, wearing and consumables spare parts, a set of equipment and tools for maintenance and repair, and related services, up to a total budget of € 2.0 million, VAT and, if relevant, customs duties excluded",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-02-25",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/2015-0503-40",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-03-25T09:40:06.833034"
   }
 }
