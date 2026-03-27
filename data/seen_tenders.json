@@ -8393,7 +8393,7 @@
     "country": "Romania",
     "cpv_codes": "",
     "deadline": "2026-03-26",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-03-12",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00432161",
     "source": "World Bank",
@@ -8711,5 +8711,31 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-03-25T09:40:06.833034"
+  },
+  "392351-2016": {
+    "title": "Italia-Assago: Servizi di consulenza giuridica",
+    "buyer": "Autostrada Pedemontana Lombarda SpA",
+    "country": "ITA",
+    "cpv_codes": "79111000",
+    "deadline": "2016-12-13",
+    "status": "Closed",
+    "publication_date": "2016-11-08+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/392351-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-03-27T09:41:15.747594"
+  },
+  "EIB-aa-012634001": {
+    "title": "Technical Assistance to support the Rural Finance Intermediation Programme/phase III (RUFIP III) in Ethiopia",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-05-17",
+    "status": "Open",
+    "publication_date": "2026-03-27",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-012634001",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-03-27T09:41:15.747594"
   }
 }
