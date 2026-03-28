@@ -8737,5 +8737,83 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-03-27T09:41:15.747594"
+  },
+  "392774-2016": {
+    "title": "Belgio-Bruxelles: Contratto quadro: servizi di consulenza giuridica a Bruxelles",
+    "buyer": "Commissione europea, direction générale des ressources humaines et de la sécurité, unité HR.R.3 «Finances, marchés publics et contrôle interne»",
+    "country": "BEL",
+    "cpv_codes": "79111000, 79140000",
+    "deadline": "2016-12-12",
+    "status": "Closed",
+    "publication_date": "2016-11-09+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/392774-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-03-28T09:02:27.068253"
+  },
+  "394199-2016": {
+    "title": "Belgio-Bruxelles: Servizi di consulenza giuridica e di rappresentanza",
+    "buyer": "Régie des Bâtiments",
+    "country": "BEL",
+    "cpv_codes": "79110000, 79400000",
+    "deadline": "2016-12-09",
+    "status": "Closed",
+    "publication_date": "2016-11-09+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/394199-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-03-28T09:02:27.068253"
+  },
+  "394528-2016": {
+    "title": "Belgio-Bruxelles: CAE Services",
+    "buyer": "CAE Services",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-11-09+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/394528-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-03-28T09:02:27.068253"
+  },
+  "395981-2016": {
+    "title": "Belgio-Bruxelles: Servizi di certificazione",
+    "buyer": "Infrabel — Direction Build",
+    "country": "BEL",
+    "cpv_codes": "79132000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-11-10+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/395981-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-03-28T09:02:27.068253"
+  },
+  "EIB-consultancy-services-for-the-supervision-of-construction-works-for-rustavi-algeti-lot-i-and-algeti-red-bridge-lot-ii": {
+    "title": "CONSULTANCY SERVICES FOR THE SUPERVISION OF CONSTRUCTION WORKS FOR RUSTAVI-ALGETI (LOT I) AND ALGETI-RED BRIDGE (LOT II)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-05-07",
+    "status": "Open",
+    "publication_date": "2026-03-27",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/consultancy-services-for-the-supervision-of-construction-works-for-rustavi-algeti-lot-i-and-algeti-red-bridge-lot-ii",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-03-28T09:02:27.068253"
+  },
+  "EIB-consultancy-services-for-the-supervision-of-construction-works-for-algeti-araflo-lot-iii-and-araflo-sadakhlo-lot-iv": {
+    "title": "CONSULTANCY SERVICES FOR THE SUPERVISION OF CONSTRUCTION WORKS FOR ALGETI-ARAFLO (LOT III) AND ARAFLO-SADAKHLO (LOT IV)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-05-07",
+    "status": "Open",
+    "publication_date": "2026-03-27",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/consultancy-services-for-the-supervision-of-construction-works-for-algeti-araflo-lot-iii-and-araflo-sadakhlo-lot-iv",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-03-28T09:02:27.068253"
   }
 }
