@@ -593,7 +593,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-03-30",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-02-13",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20110650-19",
     "source": "EIB",
@@ -8815,5 +8815,18 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-03-28T09:02:27.068253"
+  },
+  "EIB-aa-011722001": {
+    "title": "Inclusive and sustainable forest management in Morocco - AT for monitoring and implementing the investment program",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-05-20",
+    "status": "Open",
+    "publication_date": "2026-03-31",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-011722001",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-03-31T10:17:41.464163"
   }
 }
