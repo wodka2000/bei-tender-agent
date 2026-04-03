@@ -8828,5 +8828,44 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-03-31T10:17:41.464163"
+  },
+  "405367-2016": {
+    "title": "Italia-Genova: Servizi di consulenza giuridica e di rappresentanza",
+    "buyer": "Regione Liguria — Settore Affari Generali",
+    "country": "ITA",
+    "cpv_codes": "79110000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-11-17+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/405367-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-03T09:40:37.616160"
+  },
+  "405368-2016": {
+    "title": "Italia-Genova: Servizi di consulenza giuridica e di rappresentanza",
+    "buyer": "Regione Liguria — Settore Affari Generali",
+    "country": "ITA",
+    "cpv_codes": "79110000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-11-17+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/405368-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-03T09:40:37.616160"
+  },
+  "WB-OP00435073": {
+    "title": "Data Classification Policy",
+    "buyer": "Office of the Minister of State for Administrative Reform",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-04-21",
+    "status": "Open",
+    "publication_date": "2026-04-01",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00435073",
+    "source": "World Bank",
+    "category": "IT / Digitale",
+    "first_seen": "2026-04-03T09:40:37.616160"
   }
 }
