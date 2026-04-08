@@ -8919,5 +8919,31 @@
     "source": "World Bank",
     "category": "Servizi Legali",
     "first_seen": "2026-04-07T10:36:48.269199"
+  },
+  "409517-2016": {
+    "title": "Lussemburgo-Lussemburgo: BEI - Somministrazione e messa a disposizione di personale temporaneo a favore del Gruppo BEI nell'ambito di un programma di servizi gestiti",
+    "buyer": "Banca europea per gli investimenti",
+    "country": "LUX",
+    "cpv_codes": "79620000",
+    "deadline": "2016-12-29",
+    "status": "Closed",
+    "publication_date": "2016-11-22+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/409517-2016",
+    "source": "TED",
+    "category": "Altro",
+    "first_seen": "2026-04-08T10:40:44.797359"
+  },
+  "EIB-20240318-01": {
+    "title": "Supply of spillway stop gates (2 pcs.) and energy dissipator sills (10 pcs.) for Kremenchuk HPP",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-04-07",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20240318-01",
+    "source": "EIB",
+    "category": "Energia",
+    "first_seen": "2026-04-08T10:40:44.797359"
   }
 }
