@@ -8945,5 +8945,31 @@
     "source": "EIB",
     "category": "Energia",
     "first_seen": "2026-04-08T10:40:44.797359"
+  },
+  "EIB-aa-012926001": {
+    "title": "Technical support for the implementation of strategic procurement for the acquisition of medical equipment",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-06-07",
+    "status": "Open",
+    "publication_date": "2026-04-09",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-012926001",
+    "source": "EIB",
+    "category": "Salute",
+    "first_seen": "2026-04-09T10:45:12.540328"
+  },
+  "WB-OP00437275": {
+    "title": "e-services, Business Process Reengineering Foundational Work as part of Re-inventing Government (6 priority services)",
+    "buyer": "Office of the Minister of State for Administrative Reform",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-04-28",
+    "status": "Open",
+    "publication_date": "2026-04-08",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00437275",
+    "source": "World Bank",
+    "category": "Ingegneria",
+    "first_seen": "2026-04-09T10:45:12.540328"
   }
 }
