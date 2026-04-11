@@ -8224,7 +8224,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-04-10",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-03-13",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20230445-05",
     "source": "EIB",
@@ -8971,5 +8971,44 @@
     "source": "World Bank",
     "category": "Ingegneria",
     "first_seen": "2026-04-09T10:45:12.540328"
+  },
+  "414301-2016": {
+    "title": "Italia-Roma: Servizi di consulenza in materia di brevetti e diritti d'autore",
+    "buyer": "Istituto Poligrafico e Zecca dello Stato SpA",
+    "country": "ITA",
+    "cpv_codes": "79120000",
+    "deadline": "2017-01-11",
+    "status": "Closed",
+    "publication_date": "2016-11-24+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/414301-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-11T09:09:50.147242"
+  },
+  "EIB-20220640-12": {
+    "title": "India-Nagpur - Design, Supply, Installation, Testing and Commissioning of Ballastless track for elevated viaduct of Reach 1B & Reach 3A of NMRP Phase-2",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-04-10",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20220640-12",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-04-11T09:09:50.147242"
+  },
+  "EIB-2022-0640-13": {
+    "title": "N2-079/AFC-04/2026",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-04-10",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/2022-0640-13",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-04-11T09:09:50.147242"
   }
 }
