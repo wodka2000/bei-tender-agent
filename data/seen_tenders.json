@@ -8315,7 +8315,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-04-13",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-03-02",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20220860-07",
     "source": "EIB",
@@ -9010,5 +9010,18 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-04-11T09:09:50.147242"
+  },
+  "EIB-aa-011951004": {
+    "title": "Gender-Smart Financing Advisory and Capacity Building Programme for commercial banks",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-05-17",
+    "status": "Open",
+    "publication_date": "2026-04-13",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-011951004",
+    "source": "EIB",
+    "category": "Consulenza",
+    "first_seen": "2026-04-14T10:50:37.722207"
   }
 }
