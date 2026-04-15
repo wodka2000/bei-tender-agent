@@ -9023,5 +9023,18 @@
     "source": "EIB",
     "category": "Consulenza",
     "first_seen": "2026-04-14T10:50:37.722207"
+  },
+  "EIB-cft-1843": {
+    "title": "Payroll and Legal Services for EIB non-EU External Offices",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-06-04",
+    "status": "Open",
+    "publication_date": "2026-04-15",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/cft-1843",
+    "source": "EIB",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-15T10:45:07.980258"
   }
 }
