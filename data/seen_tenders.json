@@ -9036,5 +9036,18 @@
     "source": "EIB",
     "category": "Servizi Legali",
     "first_seen": "2026-04-15T10:45:07.980258"
+  },
+  "EIB-20230032-05": {
+    "title": "Supervision Services for the Construction of new railway section from Kriva Palanka to the border of the Republic of Bulgaria, as part of Corridor VIII",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-05-19",
+    "status": "Open",
+    "publication_date": "2026-04-16",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20230032-05",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-04-16T10:49:02.783185"
   }
 }
