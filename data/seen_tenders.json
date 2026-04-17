@@ -9049,5 +9049,31 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-04-16T10:49:02.783185"
+  },
+  "420317-2016": {
+    "title": "Italia-Ledro: Fenice Investimenti Risanamento & Conservazione G.E.I.E.",
+    "buyer": "Fenice Investimenti Risanamento & Conservazione G.E.I.E.",
+    "country": "ITA",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-11-29+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/420317-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-17T10:40:09.266487"
+  },
+  "422314-2016": {
+    "title": "Belgio-Bruxelles: Studio sulla sicurezza di software non incorporati; servizio, accesso ai dati e questioni giuridiche relative a robot avanzati, sistemi e veicoli autonomi, connessi e basati sull'intelligenza artificiale — SMART 2016/0071",
+    "buyer": "Commissione europea, Directorate-General for Communications Networks, Content and Technology, Directorate H: Digital Society, Trust and Cybersecurity, Unit H3: eHealth, Well-Being and Ageing",
+    "country": "BEL",
+    "cpv_codes": "79410000, 79419000",
+    "deadline": "2017-01-06",
+    "status": "Closed",
+    "publication_date": "2016-12-01+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/422314-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-17T10:40:09.266487"
   }
 }
