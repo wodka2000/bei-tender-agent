@@ -9101,5 +9101,44 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-04-18T07:51:59.820689"
+  },
+  "434873-2016": {
+    "title": "Italia-Alba: Ferrero Industrial Services — GEIE — in liquidazione",
+    "buyer": "Ferrero Industrial Services — GEIE",
+    "country": "ITA",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-12-09+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/434873-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-21T08:25:18.485947"
+  },
+  "EIB-20110487-38": {
+    "title": "Ukraine Municipal Infrastructure Programme / Complex Modernization of Water Supply and Sewerage Systems in the city Lutsk",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2023-10-19",
+    "status": "Closed",
+    "publication_date": "2026-04-20",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20110487-38",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-04-21T08:25:18.485947"
+  },
+  "EIB-20160499-02": {
+    "title": "Design and Construction General Contracting of Urban and Rural Infrastructure Upgrading and Renovation Project in Weicheng District",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-06-02",
+    "status": "Open",
+    "publication_date": "2026-04-20",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20160499-02",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-04-21T08:25:18.485947"
   }
 }
