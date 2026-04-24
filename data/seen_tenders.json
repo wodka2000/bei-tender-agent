@@ -8380,7 +8380,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-04-23",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-02-20",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-012529001",
     "source": "EIB",
@@ -9179,5 +9179,44 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-04-23T08:27:09.640890"
+  },
+  "442602-2016": {
+    "title": "Lussemburgo-Luxembourg: Culture Routes Europe GEIE",
+    "buyer": "Culture Routes Europe GEIE",
+    "country": "LUX",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-12-15+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/442602-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-24T08:54:35.131713"
+  },
+  "442604-2016": {
+    "title": "Belgio-Gent: International Foodservice Cooperation",
+    "buyer": "International Foodservice Cooperation",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-12-15+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/442604-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-24T08:54:35.131713"
+  },
+  "WB-OP00440264": {
+    "title": "Research on international technology firms operating in Palestine",
+    "buyer": "Development Alternative Inc., Europe",
+    "country": "West Bank and Gaza",
+    "cpv_codes": "",
+    "deadline": "2026-04-22",
+    "status": "Closed",
+    "publication_date": "2026-04-22",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00440264",
+    "source": "World Bank",
+    "category": "Altro",
+    "first_seen": "2026-04-24T08:54:35.131713"
   }
 }
