@@ -8276,7 +8276,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-04-24",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-03-09",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170017-07",
     "source": "EIB",
@@ -9218,5 +9218,44 @@
     "source": "World Bank",
     "category": "Altro",
     "first_seen": "2026-04-24T08:54:35.131713"
+  },
+  "443543-2016": {
+    "title": "Belgio-Bruxelles: Servizi per le imprese: servizi giuridici, di marketing, di consulenza, di reclutamento, di stampa e di sicurezza",
+    "buyer": "Land Baden-Württemberg vertreten durch die Vertretung des Landes Baden-Württemberg bei der Europäischen Union",
+    "country": "BEL",
+    "cpv_codes": "79000000",
+    "deadline": "2017-01-26",
+    "status": "Closed",
+    "publication_date": "2016-12-16+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/443543-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-25T07:58:17.736464"
+  },
+  "444387-2016": {
+    "title": "Italia-Milano: Servizi di certificazione",
+    "buyer": "ASST Grande Ospedale Metropolitano Niguarda",
+    "country": "ITA",
+    "cpv_codes": "79132000",
+    "deadline": "2017-01-13",
+    "status": "Closed",
+    "publication_date": "2016-12-16+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/444387-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-25T07:58:17.736464"
+  },
+  "444734-2016": {
+    "title": "Lussemburgo-Luxembourg: Nucleus Services GEIE",
+    "buyer": "Nucleus Services GEIE",
+    "country": "LUX",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-12-16+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/444734-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-04-25T07:58:17.736464"
   }
 }
