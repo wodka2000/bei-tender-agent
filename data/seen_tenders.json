@@ -8965,7 +8965,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-04-28",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-04-08",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00437275",
     "source": "World Bank",
@@ -9257,5 +9257,31 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-04-25T07:58:17.736464"
+  },
+  "EIB-corrigendum-for-extension-of-deadline-for-submission-consultancy-services-for-the-supervision-of-construction-works-for-rustavi-algeti-lot-i-and-algeti-red-bridge-lot-ii-copy": {
+    "title": "CORRIGENDUM FOR EXTENSION OF DEADLINE FOR SUBMISSION - CONSULTANCY SERVICES FOR THE SUPERVISION OF CONSTRUCTION WORKS FOR RUSTAVI-ALGETI (LOT I) AND ALGETI-RED BRIDGE (LOT II)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-05-21",
+    "status": "Open",
+    "publication_date": "2026-04-28",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/corrigendum-for-extension-of-deadline-for-submission-consultancy-services-for-the-supervision-of-construction-works-for-rustavi-algeti-lot-i-and-algeti-red-bridge-lot-ii-copy",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-04-29T09:04:25.678420"
+  },
+  "EIB-corrigendum-for-extension-of-deadline-for-submission-consultancy-services-for-the-supervision-of-construction-works-for-algeti-araflo-lot-iii-and-araflo-sadakhlo-lot-iv-copy": {
+    "title": "CORRIGENDUM FOR EXTENSION OF DEADLINE FOR SUBMISSION - CONSULTANCY SERVICES FOR THE SUPERVISION OF CONSTRUCTION WORKS FOR ALGETI-ARAFLO (LOT III) AND ARAFLO-SADAKHLO (LOT IV)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-05-21",
+    "status": "Open",
+    "publication_date": "2026-04-28",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/corrigendum-for-extension-of-deadline-for-submission-consultancy-services-for-the-supervision-of-construction-works-for-algeti-araflo-lot-iii-and-araflo-sadakhlo-lot-iv-copy",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-04-29T09:04:25.678420"
   }
 }
