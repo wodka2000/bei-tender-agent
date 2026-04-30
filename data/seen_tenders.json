@@ -9283,5 +9283,44 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-04-29T09:04:25.678420"
+  },
+  "EIB-20150503-41": {
+    "title": "Procurement of 2 New Funicular Cable Railway Cabins for Carriage of Passengers, Associated Goods and Related Services",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-04-29",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20150503-41",
+    "source": "EIB",
+    "category": "Trasporti",
+    "first_seen": "2026-04-30T09:06:43.280288"
+  },
+  "WB-OP00441446": {
+    "title": "Subcomponent 1.1 service provider - Market Linkages Advisory and Investor & B2B facilitation services",
+    "buyer": "Development Alternative Inc., Europe",
+    "country": "West Bank and Gaza",
+    "cpv_codes": "",
+    "deadline": "2026-05-17",
+    "status": "Open",
+    "publication_date": "2026-04-28",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00441446",
+    "source": "World Bank",
+    "category": "Consulenza",
+    "first_seen": "2026-04-30T09:06:43.280288"
+  },
+  "WB-OP00441352": {
+    "title": "Functional Review of Key Energy Sector Institutions in the West Bank",
+    "buyer": "Palestinian Energy and Natural Resources Authority",
+    "country": "West Bank and Gaza",
+    "cpv_codes": "",
+    "deadline": "2026-05-18",
+    "status": "Open",
+    "publication_date": "2026-04-28",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00441352",
+    "source": "World Bank",
+    "category": "Energia",
+    "first_seen": "2026-04-30T09:06:43.280288"
   }
 }
