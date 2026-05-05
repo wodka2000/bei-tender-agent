@@ -9322,5 +9322,18 @@
     "source": "World Bank",
     "category": "Energia",
     "first_seen": "2026-04-30T09:06:43.280288"
+  },
+  "446824-2016": {
+    "title": "Belgio-Bruxelles: Studio relativo agli aspetti giuridici dei certificati protettivi complementari nell'UE",
+    "buyer": "Commissione europea, Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs, Directorate F: Innovation and Advanced Manufacturing",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-12-20+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/446824-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-05-05T09:03:05.328556"
   }
 }
