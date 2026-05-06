@@ -8146,7 +8146,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-05-05",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-03-19",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-011198-02",
     "source": "EIB",
@@ -8640,7 +8640,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-05-05",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-03-23",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170197-05",
     "source": "EIB",
@@ -9335,5 +9335,31 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-05-05T09:03:05.328556"
+  },
+  "WB-OP00442683": {
+    "title": "Task 1: Engineering Consultant services for the preparation of the detailed design and engineering package for Ameriyah depot administrative buildings rehabilitation and;\nTask 2: Full site supervision services for both Ameriyah depot & Admin Bldgs",
+    "buyer": "Egyptian Environmental Affairs Agency",
+    "country": "Egypt, Arab Republic of",
+    "cpv_codes": "",
+    "deadline": "2026-05-20",
+    "status": "Open",
+    "publication_date": "2026-05-04",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00442683",
+    "source": "World Bank",
+    "category": "Ingegneria",
+    "first_seen": "2026-05-06T09:14:14.880843"
+  },
+  "WB-OP00440545": {
+    "title": "Lending Manual & Capacity building",
+    "buyer": "Kafalat sal",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-05-18",
+    "status": "Open",
+    "publication_date": "2026-05-04",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00440545",
+    "source": "World Bank",
+    "category": "Formazione",
+    "first_seen": "2026-05-06T09:14:14.880843"
   }
 }
