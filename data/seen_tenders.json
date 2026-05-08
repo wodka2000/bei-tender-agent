@@ -8796,7 +8796,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-05-07",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-03-27",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/consultancy-services-for-the-supervision-of-construction-works-for-rustavi-algeti-lot-i-and-algeti-red-bridge-lot-ii",
     "source": "EIB",
@@ -8809,7 +8809,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-05-07",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-03-27",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/consultancy-services-for-the-supervision-of-construction-works-for-algeti-araflo-lot-iii-and-araflo-sadakhlo-lot-iv",
     "source": "EIB",
@@ -9361,5 +9361,18 @@
     "source": "World Bank",
     "category": "Formazione",
     "first_seen": "2026-05-06T09:14:14.880843"
+  },
+  "EIB-20180675-22": {
+    "title": "Construcción del sistema de evacuación de aguas lluvias de las urbanizaciones El Rancho, Poncho Verde, San Francisco, Los Ángeles y la Colina, en el cantón Rumiñahui, provincia de Pichincha.",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-06-10",
+    "status": "Open",
+    "publication_date": "2026-05-08",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20180675-22",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-05-08T08:16:34.811520"
   }
 }
