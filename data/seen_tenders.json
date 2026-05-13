@@ -9374,5 +9374,31 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-05-08T08:16:34.811520"
+  },
+  "456371-2016": {
+    "title": "Belgio-Bruxelles: Servizi giuridici",
+    "buyer": "Institut Bruxellois pour la gestion de l'environnement",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2016-12-23+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/456371-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-05-13T09:33:41.645081"
+  },
+  "WB-OP00444230": {
+    "title": "Environmental and Social Officer",
+    "buyer": "Kafalat",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-05-25",
+    "status": "Open",
+    "publication_date": "2026-05-11",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00444230",
+    "source": "World Bank",
+    "category": "Ambiente",
+    "first_seen": "2026-05-13T09:33:41.645081"
   }
 }
