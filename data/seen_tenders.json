@@ -9400,5 +9400,18 @@
     "source": "World Bank",
     "category": "Ambiente",
     "first_seen": "2026-05-13T09:33:41.645081"
+  },
+  "458043-2016": {
+    "title": "Italia-Roma: Servizi di pulizia di uffici",
+    "buyer": "Città Metropolitana di Roma Capitale — Soggetto Aggregatore per le Procedure di Affidamento per gli Enti Locali del Territorio Metropolitano",
+    "country": "ITA",
+    "cpv_codes": "90900000, 90919200",
+    "deadline": "2017-02-20",
+    "status": "Closed",
+    "publication_date": "2016-12-24+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/458043-2016",
+    "source": "TED",
+    "category": "Ambiente",
+    "first_seen": "2026-05-15T09:36:52.211171"
   }
 }
