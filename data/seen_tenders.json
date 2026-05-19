@@ -9316,7 +9316,7 @@
     "country": "West Bank and Gaza",
     "cpv_codes": "",
     "deadline": "2026-05-18",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-04-28",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00441352",
     "source": "World Bank",
@@ -9355,7 +9355,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-05-18",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-05-04",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00440545",
     "source": "World Bank",
@@ -9426,5 +9426,18 @@
     "source": "EIB",
     "category": "Ambiente",
     "first_seen": "2026-05-18T10:53:25.619184"
+  },
+  "EIB-20190331-13": {
+    "title": "Pipe Replacement for Water Distribution Networks of Chimoio and Manica Cities, Manica Province Mozambique",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-07-07",
+    "status": "Open",
+    "publication_date": "2026-05-18",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190331-13",
+    "source": "EIB",
+    "category": "Ambiente",
+    "first_seen": "2026-05-19T10:29:13.888617"
   }
 }
