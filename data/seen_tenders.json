@@ -9043,7 +9043,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-05-19",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-04-16",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20230032-05",
     "source": "EIB",
@@ -9439,5 +9439,31 @@
     "source": "EIB",
     "category": "Ambiente",
     "first_seen": "2026-05-19T10:29:13.888617"
+  },
+  "EIB-20230892-01-02": {
+    "title": "Construction, Equipment and Commissioning of Lines 1 and 2 of the electric rail system in the Greater Metropolitan Area (GAM)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-05-20",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20230892-01-02",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-05-20T10:15:44.585693"
+  },
+  "EIB-2019-0001-04": {
+    "title": "Supply of new electric buses 12 metres long (± 0.5 m), including spare parts and consumables materials, equipment and tools for maintenance and repair, and related services, up to a total budget of € 15 million, VAT and, if relevant, customs duties excluded",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-05-19",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/2019-0001-04",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-05-20T10:15:44.585693"
   }
 }
