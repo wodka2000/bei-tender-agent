@@ -9264,7 +9264,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-05-21",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-04-28",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/corrigendum-for-extension-of-deadline-for-submission-consultancy-services-for-the-supervision-of-construction-works-for-rustavi-algeti-lot-i-and-algeti-red-bridge-lot-ii-copy",
     "source": "EIB",
@@ -9277,7 +9277,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-05-21",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-04-28",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/corrigendum-for-extension-of-deadline-for-submission-consultancy-services-for-the-supervision-of-construction-works-for-algeti-araflo-lot-iii-and-araflo-sadakhlo-lot-iv-copy",
     "source": "EIB",
@@ -9465,5 +9465,18 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-05-20T10:15:44.585693"
+  },
+  "EIB-maa-010008": {
+    "title": "Innovation and Digitalisation Advisory Programme",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-07-09",
+    "status": "Open",
+    "publication_date": "2026-05-22",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/maa-010008",
+    "source": "EIB",
+    "category": "Consulenza",
+    "first_seen": "2026-05-22T10:13:16.123629"
   }
 }
