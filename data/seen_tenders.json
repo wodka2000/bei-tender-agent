@@ -9394,7 +9394,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-05-25",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-05-11",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00444230",
     "source": "World Bank",
@@ -9478,5 +9478,31 @@
     "source": "EIB",
     "category": "Consulenza",
     "first_seen": "2026-05-22T10:13:16.123629"
+  },
+  "EIB-20200001-06": {
+    "title": "Rehabilitation of 9 Tunnels on the Vrbnica–Bar Railway Line, Montenegro",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-08-23",
+    "status": "Open",
+    "publication_date": "2026-05-26",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20200001-06",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-05-26T10:39:06.625867"
+  },
+  "EIB-20210814-02": {
+    "title": "Contratação de empresa para fornecimento, instalação e pré- operação de ete pré-fabricada para a ETE Chapecó",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-06-21",
+    "status": "Open",
+    "publication_date": "2026-05-26",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20210814-02",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-05-26T10:39:06.625867"
   }
 }
