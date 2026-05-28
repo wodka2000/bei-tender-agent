@@ -9517,5 +9517,18 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-05-27T10:44:12.730741"
+  },
+  "461072-2016": {
+    "title": "Italia-Milano: Servizi giuridici",
+    "buyer": "ARCA SpA — Azienda Regionale Centrale Acquisti SpA",
+    "country": "ITA",
+    "cpv_codes": "79100000, 79140000",
+    "deadline": "2017-02-15",
+    "status": "Closed",
+    "publication_date": "2016-12-28+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/461072-2016",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-05-28T10:42:56.345695"
   }
 }
