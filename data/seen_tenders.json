@@ -8900,7 +8900,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-05-31",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-04-07",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20110487-602",
     "source": "EIB",
@@ -9556,5 +9556,18 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-05-30T09:07:45.131337"
+  },
+  "EIB-20190331-12": {
+    "title": "Supervision services for pipe replacement for water distribution networks of Chimoio and Manica Cities, Manica",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-07-14",
+    "status": "Open",
+    "publication_date": "2026-06-01",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190331-12",
+    "source": "EIB",
+    "category": "Ambiente",
+    "first_seen": "2026-06-01T12:26:54.279627"
   }
 }
