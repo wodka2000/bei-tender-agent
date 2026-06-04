@@ -9569,5 +9569,18 @@
     "source": "EIB",
     "category": "Ambiente",
     "first_seen": "2026-06-01T12:26:54.279627"
+  },
+  "EIB-20240318-03": {
+    "title": "Procurement of upstream emergency-maintenance gates (25 pcs.) for Kaniv HPP",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-06-03",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20240318-03",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-06-04T10:31:29.733592"
   }
 }
