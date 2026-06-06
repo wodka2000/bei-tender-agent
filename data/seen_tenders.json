@@ -9647,5 +9647,18 @@
     "source": "World Bank",
     "category": "Formazione",
     "first_seen": "2026-06-05T10:38:45.807775"
+  },
+  "WB-OP00449026": {
+    "title": "Functional Review of Key Water Sector Institutions",
+    "buyer": "General Supply Department / Ministry of Finance",
+    "country": "West Bank and Gaza",
+    "cpv_codes": "",
+    "deadline": "2026-06-22",
+    "status": "Open",
+    "publication_date": "2026-06-04",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00449026",
+    "source": "World Bank",
+    "category": "Ambiente",
+    "first_seen": "2026-06-06T09:15:43.039456"
   }
 }
