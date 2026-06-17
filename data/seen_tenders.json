@@ -9699,5 +9699,44 @@
     "source": "World Bank",
     "category": "Ambiente",
     "first_seen": "2026-06-16T11:59:54.610424"
+  },
+  "EIB-20160404-12-tender-award-2026-06-16": {
+    "title": "Supervision of Construction / Rehabilitation Works for Road Safety Improvement Project",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-06-16",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20160404-12-tender-award-2026-06-16",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-06-17T11:25:51.787838"
+  },
+  "EIB-20170338-34": {
+    "title": "Procurement of Consultancy Services for Design Checking and Supervision of the Sacomar–Benfica Water Systems Infrastructure Upgrading Project",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-07-01",
+    "status": "Open",
+    "publication_date": "2026-06-16",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170338-34",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-06-17T11:25:51.787838"
+  },
+  "EIB-2016-0404-16": {
+    "title": "Construction/Rehabilitation Works for Road Safety Improvement Phase II - East Georgia (Lot I), Tbilisi Bypass (Lot II) and West (Lot III)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-07-19",
+    "status": "Open",
+    "publication_date": "2026-06-15",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/2016-0404-16",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-06-17T11:25:51.787838"
   }
 }
