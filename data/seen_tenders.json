@@ -9641,7 +9641,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-06-18",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-06-03",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00448807",
     "source": "World Bank",
@@ -9738,5 +9738,57 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-06-17T11:25:51.787838"
+  },
+  "1571-2017": {
+    "title": "Belgio-Bruxelles: Sistemi di distribuzione di prodotti di investimento al dettaglio in tutta l'Unione europea",
+    "buyer": "Commissione europea, Directorate-General for Financial Stability, Financial Services and Capital Markets Union",
+    "country": "BEL",
+    "cpv_codes": "79100000, 79140000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-04+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/1571-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-06-19T11:10:33.835962"
+  },
+  "1572-2017": {
+    "title": "Belgio-Bruxelles: Raffronto dei regimi nazionali di esecuzione dei prestiti (compresa l'insolvenza) dal punto di vista delle banche creditrici",
+    "buyer": "Commissione europea, Directorate-General for Financial Stability, Financial Services and Capital Markets Union",
+    "country": "BEL",
+    "cpv_codes": "79140000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-04+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/1572-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-06-19T11:10:33.835962"
+  },
+  "1579-2017": {
+    "title": "Belgio-Bruxelles: Identificazione degli ostacoli a livello regolamentare e di mercato allo sviluppo del collocamento privato del debito nell'UE",
+    "buyer": "Commissione europea, Directorate-General for Financial Stability, Financial Services and Capital Markets Union",
+    "country": "BEL",
+    "cpv_codes": "79140000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-04+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/1579-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-06-19T11:10:33.835962"
+  },
+  "1581-2017": {
+    "title": "Belgio-Bruxelles: Analisi degli sviluppi nei flussi di capitali dell'UE nel contesto globale — tenendo conto dell’Unione dei mercati dei capitali",
+    "buyer": "Commissione europea, Directorate-General for Financial Stability, Financial Services and Capital Markets Union",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-04+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/1581-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-06-19T11:10:33.835962"
   }
 }
