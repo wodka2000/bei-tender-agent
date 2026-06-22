@@ -9498,7 +9498,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-06-21",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-05-26",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20210814-02",
     "source": "EIB",
@@ -9803,5 +9803,18 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-06-20T09:55:39.886514"
+  },
+  "EIB-aa-012642002": {
+    "title": "Technical assistance services – Governance and financing models for the 3 REHs in Iasi, Cluj and Craiova",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-07-26",
+    "status": "Open",
+    "publication_date": "2026-06-22",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-012642002",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-06-22T12:39:57.399576"
   }
 }
