@@ -9654,7 +9654,7 @@
     "country": "West Bank and Gaza",
     "cpv_codes": "",
     "deadline": "2026-06-22",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-06-04",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00449026",
     "source": "World Bank",
@@ -9667,7 +9667,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-06-22",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-06-05",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00449273",
     "source": "World Bank",
@@ -9816,5 +9816,18 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-06-22T12:39:57.399576"
+  },
+  "4399-2017": {
+    "title": "Belgio-Bruxelles: Clean Power Europe",
+    "buyer": "Clean Power Europe",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-05+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/4399-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-06-23T10:25:48.331807"
   }
 }
