@@ -9829,5 +9829,18 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-06-23T10:25:48.331807"
+  },
+  "12612-2017": {
+    "title": "Italia-Roma: Servizi di consulenza in materia di brevetti e diritti d'autore",
+    "buyer": "Istituto Poligrafico e Zecca dello Stato SpA",
+    "country": "ITA",
+    "cpv_codes": "79120000",
+    "deadline": "2017-01-18",
+    "status": "Closed",
+    "publication_date": "2017-01-12+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/12612-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-06-27T09:20:47.385144"
   }
 }
