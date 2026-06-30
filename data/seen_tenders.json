@@ -9550,7 +9550,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-06-29",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-05-28",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20220208-01",
     "source": "EIB",
@@ -9842,5 +9842,57 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-06-27T09:20:47.385144"
+  },
+  "12938-2017": {
+    "title": "Lussemburgo-Luxemburg: Immo-BAEV 2 K9 SE",
+    "buyer": "Immo-BAEV 2 K9 SE",
+    "country": "LUX",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-12+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/12938-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-06-30T10:20:55.548985"
+  },
+  "12939-2017": {
+    "title": "Lussemburgo-Luxemburg: Immo-BAEV 3 MAHIL SE",
+    "buyer": "Immo-BAEV 3 MAHIL SE",
+    "country": "LUX",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-12+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/12939-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-06-30T10:20:55.548985"
+  },
+  "12988-2017": {
+    "title": "Belgio-Bruxelles: Studio sui sistemi di trattamento delle denunce negli Stati membri per il trattamento delle denunce concernenti i fondi strutturali e d'investimento europei (SIE)",
+    "buyer": "Commissione europea, Directorate-General for Regional and Urban Policy, Directorate B, Unit B4: Legal Affairs",
+    "country": "BEL",
+    "cpv_codes": "79140000",
+    "deadline": "2017-02-28",
+    "status": "Closed",
+    "publication_date": "2017-01-13+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/12988-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-06-30T10:20:55.548985"
+  },
+  "14434-2017": {
+    "title": "Belgio-Bruxelles: Servizi di certificazione",
+    "buyer": "Infrabel — Direction Build",
+    "country": "BEL",
+    "cpv_codes": "79132000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-13+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/14434-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-06-30T10:20:55.548985"
   }
 }
