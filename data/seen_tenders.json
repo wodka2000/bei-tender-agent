@@ -9719,7 +9719,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-07-01",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-06-16",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170338-34",
     "source": "EIB",
@@ -9907,5 +9907,31 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-07-01T10:36:25.352194"
+  },
+  "20823-2017": {
+    "title": "Belgio-Bruxelles: Progetto sugli organismi nocivi per la qualità nell'UE",
+    "buyer": "Commissione europea",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-20+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/20823-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-02T09:49:54.839769"
+  },
+  "EIB-20200935-02": {
+    "title": "Empreitada de Reabilitação e Construção dos Sistemas de Abastecimento de Água do Rio do Ouro, Água Clara, Amoreira 1, Amoreira 2 e Amoreira 4",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-08-30",
+    "status": "Open",
+    "publication_date": "2026-07-01",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20200935-02",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-07-02T09:49:54.839769"
   }
 }
