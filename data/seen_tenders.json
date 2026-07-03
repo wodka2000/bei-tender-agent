@@ -9933,5 +9933,31 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-07-02T09:49:54.839769"
+  },
+  "25199-2017": {
+    "title": "Italia-Bolzano: Servizi di consulenza giuridica e di rappresentanza",
+    "buyer": "Galleria di Base del Brennero Brenner Basistunnel BBT SE",
+    "country": "ITA",
+    "cpv_codes": "79110000",
+    "deadline": "2017-03-16",
+    "status": "Closed",
+    "publication_date": "2017-01-21+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/25199-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-03T09:47:47.771521"
+  },
+  "EIB-20200537-02": {
+    "title": "Consulting Services for Supervision of rehabilitation works under Rehabilitation of M5 Border with Ukraine - Criva - Balti - Chisinau - Tiraspol- Border with Ukraine Road, km 103+750 - km 133+000",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-07-26",
+    "status": "Open",
+    "publication_date": "2026-07-03",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20200537-02",
+    "source": "EIB",
+    "category": "Consulenza",
+    "first_seen": "2026-07-03T09:47:47.771521"
   }
 }
