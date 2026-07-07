@@ -9972,5 +9972,31 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-07-06T11:19:29.421552"
+  },
+  "31005-2017": {
+    "title": "Belgio-Bruxelles: Esame degli strumenti e dei programmi di raccolta dei dati dell'Unione europea sotto il profilo dei diritti fondamentali",
+    "buyer": "Commissione europea, Directorate-General for Justice and Consumers, Unit JUST/04 Programme Management",
+    "country": "BEL",
+    "cpv_codes": "79100000, 79140000, 79410000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-27+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/31005-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-07T10:16:39.643718"
+  },
+  "EIB-20140649-16": {
+    "title": "Fourniture d’équipements hydrauliques pour la sectorisation de Yopougon (hors enregistreurs et points de pression en réseau)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-08-24",
+    "status": "Open",
+    "publication_date": "2026-07-07",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20140649-16",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-07-07T10:16:39.643718"
   }
 }
