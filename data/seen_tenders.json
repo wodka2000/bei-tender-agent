@@ -9420,7 +9420,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-07-07",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-05-18",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190331-13-cn-2026-05-18-pdf",
     "source": "EIB",
@@ -9433,7 +9433,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-07-07",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-05-18",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190331-13",
     "source": "EIB",
@@ -9998,5 +9998,31 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-07-07T10:16:39.643718"
+  },
+  "31006-2017": {
+    "title": "Belgio-Bruxelles: Fornitura di seminari volti a sensibilizzare i giudici e gli operatori di giustizia sulla legislazione dell'UE relativa alla parità tra i generi",
+    "buyer": "Commissione europea, Directorate-General for Justice and Consumers, Unit JUST/04 Programme Management",
+    "country": "BEL",
+    "cpv_codes": "79140000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-27+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/31006-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-08T09:18:11.918984"
+  },
+  "32901-2017": {
+    "title": "Belgio-Bruxelles: Servizi di certificazione",
+    "buyer": "Infrabel — Direction Build",
+    "country": "BEL",
+    "cpv_codes": "79132000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-01-27+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/32901-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-08T09:18:11.918984"
   }
 }
