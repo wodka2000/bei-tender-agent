@@ -9472,7 +9472,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-07-09",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-05-22",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/maa-010008",
     "source": "EIB",
@@ -9693,7 +9693,7 @@
     "country": "West Bank and Gaza",
     "cpv_codes": "",
     "deadline": "2026-07-09",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-06-15",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00451171",
     "source": "World Bank",
@@ -10050,5 +10050,18 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-07-09T10:16:08.827099"
+  },
+  "34689-2017": {
+    "title": "Belgio-Bruxelles: Contratto quadro per la prestazione di servizi completi di firma elettronica (compresi i sigilli elettronici utilizzati come timbri aziendali digitali) per il funzionamento del sistema Traces",
+    "buyer": "Commissione europea",
+    "country": "BEL",
+    "cpv_codes": "79132100",
+    "deadline": "2017-03-06",
+    "status": "Closed",
+    "publication_date": "2017-01-31+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/34689-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-10T10:12:45.926274"
   }
 }
