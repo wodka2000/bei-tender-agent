@@ -10076,5 +10076,31 @@
     "source": "World Bank",
     "category": "Altro",
     "first_seen": "2026-07-11T08:41:17.475831"
+  },
+  "38315-2017": {
+    "title": "Belgio-Brasschaat: Servizi di ufficiali giudiziari",
+    "buyer": "AZ Klina",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "2017-03-14",
+    "status": "Closed",
+    "publication_date": "2017-02-01+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/38315-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-14T08:56:47.882777"
+  },
+  "40636-2017": {
+    "title": "Belgio-Courtrai: Servizi per le imprese: servizi giuridici, di marketing, di consulenza, di reclutamento, di stampa e di sicurezza",
+    "buyer": "Intercommunale Leiedal",
+    "country": "BEL",
+    "cpv_codes": "79100000, 79140000",
+    "deadline": "2017-03-21",
+    "status": "Closed",
+    "publication_date": "2017-02-02+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/40636-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-14T08:56:47.882777"
   }
 }
