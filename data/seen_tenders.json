@@ -9563,7 +9563,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-07-14",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-06-01",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190331-12",
     "source": "EIB",
@@ -10102,5 +10102,18 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-07-14T08:56:47.882777"
+  },
+  "40980-2017": {
+    "title": "Lussemburgo-Lussemburgo: AO 10653 — Assistenza editoriale nella produzione, traduzione e manutenzione della raccolta di sintesi della legislazione dell'UE",
+    "buyer": "Ufficio delle pubblicazioni dell'Unione europea",
+    "country": "LUX",
+    "cpv_codes": "79130000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-02-03+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/40980-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-15T09:02:52.503281"
   }
 }
