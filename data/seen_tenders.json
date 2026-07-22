@@ -10258,5 +10258,57 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-07-21T09:21:06.726680"
+  },
+  "56608-2017": {
+    "title": "Belgio-Brasschaat: Servizi di ufficiali giudiziari",
+    "buyer": "AZ Klina",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-02-14+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/56608-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-22T09:20:01.582642"
+  },
+  "EIB-20170671-34": {
+    "title": "Preparation of technical and tender documentation for the implementation of VTS and Voice VHF system on the Tisza River",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-08-31",
+    "status": "Open",
+    "publication_date": "2026-07-21",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170671-34",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-07-22T09:20:01.582642"
+  },
+  "EIB-20170671-33": {
+    "title": "Preparation of technical and tender documentation for the implementation of AIS AtoNs monitoring and reaction system on the Tisza River",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-08-27",
+    "status": "Open",
+    "publication_date": "2026-07-21",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170671-33",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-07-22T09:20:01.582642"
+  },
+  "EIB-20140649-19": {
+    "title": "Travaux de mise en place d’un système de supervision national pour l’eau potable",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-07",
+    "status": "Open",
+    "publication_date": "2026-07-21",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20140649-19",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-07-22T09:20:01.582642"
   }
 }
