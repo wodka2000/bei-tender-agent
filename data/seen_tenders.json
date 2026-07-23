@@ -9602,7 +9602,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-07-22",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-06-04",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20180246-05",
     "source": "EIB",
@@ -9615,7 +9615,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-07-22",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-06-04",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20180102-05-tenderinv-cn-2026-06-04-rustavi-rb",
     "source": "EIB",
@@ -10310,5 +10310,18 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-07-22T09:20:01.582642"
+  },
+  "EIB-20140649-15d": {
+    "title": "Acquisition de fournitures pour la réalisation de 3000 branchements d’eau potable individuels et 150 branchement collectifs",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-08-31",
+    "status": "Open",
+    "publication_date": "2026-07-23",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20140649-15d",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-07-23T09:16:29.242099"
   }
 }
