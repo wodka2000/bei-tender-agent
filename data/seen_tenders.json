@@ -10323,5 +10323,31 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-07-23T09:16:29.242099"
+  },
+  "60848-2017": {
+    "title": "Belgio-Bruxelles: Contratto quadro: servizi di consulenza giuridica a Bruxelles",
+    "buyer": "Commissione europea, direction générale des ressources humaines et de la sécurité, unité HR.R.3 «Finances, marchés publics et contrôle interne»",
+    "country": "BEL",
+    "cpv_codes": "79111000, 79140000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-02-17+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/60848-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-25T08:56:30.828474"
+  },
+  "62681-2017": {
+    "title": "Belgio-Bruxelles: Contratto quadro per la prestazione di servizi completi di firma elettronica (compresi i sigilli elettronici utilizzati come timbri aziendali digitali) per il funzionamento del sistema Traces",
+    "buyer": "Commissione europea",
+    "country": "BEL",
+    "cpv_codes": "79132100",
+    "deadline": "2017-03-31",
+    "status": "Closed",
+    "publication_date": "2017-02-18+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/62681-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-25T08:56:30.828474"
   }
 }
