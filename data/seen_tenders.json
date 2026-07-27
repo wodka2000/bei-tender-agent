@@ -9810,7 +9810,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-07-26",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-06-22",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-012642002",
     "source": "EIB",
@@ -9953,7 +9953,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-07-26",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-07-03",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20200537-02",
     "source": "EIB",
@@ -10349,5 +10349,18 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-07-25T08:56:30.828474"
+  },
+  "EIB-20170086-01": {
+    "title": "Projet de sécurisation et renforcement de l'alimentation en eau potable du grand Tunis et d'alimentation en eau potable du port financier",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-07-27",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170086-01",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-07-27T10:30:45.493599"
   }
 }
