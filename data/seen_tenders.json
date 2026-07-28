@@ -10362,5 +10362,57 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-07-27T10:30:45.493599"
+  },
+  "67304-2017": {
+    "title": "Italia-Legnaro: Servizi di certificazione",
+    "buyer": "Istituto Zooprofilattico Sperimentale delle Venezie",
+    "country": "ITA",
+    "cpv_codes": "79132000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-02-22+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/67304-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-28T09:29:22.384179"
+  },
+  "71203-2017": {
+    "title": "Italia-Roma: Servizi generali di consulenza gestionale",
+    "buyer": "Ministero dell'Interno — Dipartimento Libertà Civili e Immigrazione — Fondo Asilo Migrazione e Integrazione 2014-2020",
+    "country": "ITA",
+    "cpv_codes": "79140000, 79411000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-02-24+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/71203-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-28T09:29:22.384179"
+  },
+  "72303-2017": {
+    "title": "Belgio-Bruxelles: Studio sulla sicurezza di software non incorporati; servizio, accesso ai dati e questioni giuridiche relative a robot avanzati, sistemi e veicoli autonomi, connessi e basati sull'intelligenza artificiale — SMART 2016/0071",
+    "buyer": "Commissione europea, Directorate-General for Communications Networks, Content and Technology, Directorate H: Digital Society, Trust and Cybersecurity, Unit H3: eHealth, Well-Being and Ageing",
+    "country": "BEL",
+    "cpv_codes": "79410000, 79419000",
+    "deadline": "2017-04-03",
+    "status": "Closed",
+    "publication_date": "2017-02-25+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/72303-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-28T09:29:22.384179"
+  },
+  "EIB-aa-011624003": {
+    "title": "Climate Action and Sustainability for Corporate",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-13",
+    "status": "Open",
+    "publication_date": "2026-07-28",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-011624003",
+    "source": "EIB",
+    "category": "Ambiente",
+    "first_seen": "2026-07-28T09:29:22.384179"
   }
 }
