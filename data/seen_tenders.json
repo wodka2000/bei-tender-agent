@@ -10427,5 +10427,44 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-07-29T09:31:03.955839"
+  },
+  "74217-2017": {
+    "title": "Belgio-Bruxelles: Contratto quadro — servizi per l'attuazione dell'aiuto esterno",
+    "buyer": "Unione europea",
+    "country": "BEL",
+    "cpv_codes": "79100000, 79400000, 79411000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-02-28+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/74217-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-30T09:23:33.466670"
+  },
+  "EIB-20170338-35": {
+    "title": "Design and Construction of Sacomar - Benfica Water Systems Infrastructure Upgrading Project",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-29",
+    "status": "Open",
+    "publication_date": "2026-07-30",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170338-35",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-07-30T09:23:33.466670"
+  },
+  "WB-OP00459369": {
+    "title": "Contracting with a consultancy firm for the provision of technical assistance to develop GAHAR's E-learning platform",
+    "buyer": "Ministry of Finance",
+    "country": "Egypt, Arab Republic of",
+    "cpv_codes": "",
+    "deadline": "2026-08-20",
+    "status": "Open",
+    "publication_date": "2026-07-28",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459369",
+    "source": "World Bank",
+    "category": "Altro",
+    "first_seen": "2026-07-30T09:23:33.466670"
   }
 }
