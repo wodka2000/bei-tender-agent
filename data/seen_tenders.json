@@ -10466,5 +10466,44 @@
     "source": "World Bank",
     "category": "Altro",
     "first_seen": "2026-07-30T09:23:33.466670"
+  },
+  "77868-2017": {
+    "title": "Italia-Assago: Servizi di certificazione",
+    "buyer": "CAP Holding SpA",
+    "country": "ITA",
+    "cpv_codes": "79132000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-03-01+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/77868-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-07-31T09:35:27.280967"
+  },
+  "EIB-20170671-32": {
+    "title": "Supervision of the Works for the reconstruction and expansion of Serbian port of Bogojevo",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-14",
+    "status": "Open",
+    "publication_date": "2026-07-31",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170671-32",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-07-31T09:35:27.280967"
+  },
+  "EIB-20110487-58": {
+    "title": "Ukraine Municipal Infrastructure Programme - Complex Modernization of Water Supply and Sewerage Systems in the city Lutsk",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-13",
+    "status": "Open",
+    "publication_date": "2026-07-30",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20110487-58",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-07-31T09:35:27.280967"
   }
 }
