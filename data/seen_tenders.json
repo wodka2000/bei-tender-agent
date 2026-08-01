@@ -10505,5 +10505,44 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-07-31T09:35:27.280967"
+  },
+  "78718-2017": {
+    "title": "Italia-Perugia: Servizi di rappresentanza legale",
+    "buyer": "Azienda Ospedaliera di Perugia",
+    "country": "ITA",
+    "cpv_codes": "79112000",
+    "deadline": "2017-04-12",
+    "status": "Closed",
+    "publication_date": "2017-03-02+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/78718-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-01T08:59:13.897034"
+  },
+  "78929-2017": {
+    "title": "Belgio-Bruxelles: Servizi per le imprese: servizi giuridici, di marketing, di consulenza, di reclutamento, di stampa e di sicurezza",
+    "buyer": "Land Baden-Württemberg vertreten durch die Vertretung des Landes Baden-Württemberg bei der Europäischen Union",
+    "country": "BEL",
+    "cpv_codes": "79000000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-03-02+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/78929-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-01T08:59:13.897034"
+  },
+  "81826-2017": {
+    "title": "Belgio-Bruxelles: Studio sui vantaggi e gli svantaggi delle soluzioni di voto a distanza per supportare la preparazione di una guida alle migliori prassi sull'uso degli strumenti digitali per facilitare l'esercizio dei diritti politici da parte dei cittadini dell'Unione europea",
+    "buyer": "Commissione europea, Directorate-General for Justice and Consumers, Unit JUST/04, Programme Management",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "2017-04-20",
+    "status": "Closed",
+    "publication_date": "2017-03-04+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/81826-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-01T08:59:13.897034"
   }
 }
