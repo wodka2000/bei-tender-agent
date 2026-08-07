@@ -10544,5 +10544,70 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-08-01T08:59:13.897034"
+  },
+  "86234-2017": {
+    "title": "Italia-Bolzano: Servizi di consulenza e informazione giuridica",
+    "buyer": "Agenzia per i procedimenti e la vigilanza in materia di contratti pubblici di lavori, servizi e forniture",
+    "country": "ITA",
+    "cpv_codes": "79100000, 79140000",
+    "deadline": "2017-04-10",
+    "status": "Closed",
+    "publication_date": "2017-03-08+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/86234-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-07T08:03:34.931735"
+  },
+  "86993-2017": {
+    "title": "Italia-Cremona: Medicinali vari",
+    "buyer": "Azienda Speciale Comunale «Cremona Solidale»",
+    "country": "ITA",
+    "cpv_codes": "33690000",
+    "deadline": "2017-04-18",
+    "status": "Closed",
+    "publication_date": "2017-03-08+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/86993-2017",
+    "source": "TED",
+    "category": "Salute",
+    "first_seen": "2026-08-07T08:03:34.931735"
+  },
+  "87104-2017": {
+    "title": "Belgio-Courtrai: Servizi per le imprese: servizi giuridici, di marketing, di consulenza, di reclutamento, di stampa e di sicurezza",
+    "buyer": "Intercommunale Leiedal",
+    "country": "BEL",
+    "cpv_codes": "79100000, 79140000",
+    "deadline": "2017-03-21",
+    "status": "Closed",
+    "publication_date": "2017-03-08+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/87104-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-07T08:03:34.931735"
+  },
+  "87156-2017": {
+    "title": "Belgio-Namur: Servizi di consulenza in materia di brevetti e diritti d'autore",
+    "buyer": "Université de Namur",
+    "country": "BEL",
+    "cpv_codes": "79120000",
+    "deadline": "2017-05-03",
+    "status": "Closed",
+    "publication_date": "2017-03-08+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/87156-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-07T08:03:34.931735"
+  },
+  "EIB-20190331-14": {
+    "title": "Consultant Firm for the provision of Hydrogeological Studies for Groundwater Development in Quelimane and Mocuba, Zambezia Province – Mozambique",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-17",
+    "status": "Open",
+    "publication_date": "2026-08-07",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190331-14",
+    "source": "EIB",
+    "category": "Ambiente",
+    "first_seen": "2026-08-07T08:03:34.931735"
   }
 }
