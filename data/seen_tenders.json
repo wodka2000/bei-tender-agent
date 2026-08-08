@@ -10609,5 +10609,18 @@
     "source": "EIB",
     "category": "Ambiente",
     "first_seen": "2026-08-07T08:03:34.931735"
+  },
+  "EIB-cft-1844": {
+    "title": "Recruitment Selection Tools and Assessment Centres for the EIB Group",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-08",
+    "status": "Open",
+    "publication_date": "2026-08-05",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/cft-1844",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-08-08T07:38:27.102479"
   }
 }
