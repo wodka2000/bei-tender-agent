@@ -10622,5 +10622,83 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-08-08T07:38:27.102479"
+  },
+  "EIB-20110487-65": {
+    "title": "Ukraine Municipal Infrastructure Programme / Complex Modernization of Water Supply and Sewerage Systems in the city Lutsk",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-20",
+    "status": "Open",
+    "publication_date": "2026-08-10",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20110487-65",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-08-11T08:00:23.957677"
+  },
+  "EIB-2015-0503-42": {
+    "title": "Supply of new low-floor electric buses, including battery charging infrastructure (night charging stations and fast charging stations at final stops), main spare parts, wearing and consumable spare parts, maintenance and repair equipment and tools, and related services up to a total budget of € 9.840 million, sales taxes and customs duties excluded",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-08-10",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/2015-0503-42",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-08-11T08:00:23.957677"
+  },
+  "EIB-20230238-03": {
+    "title": "Development of Water Supply Scheme (Tube wells, rising mains, OHTs, Distribution System &amp; House Service Connections including Allied Works) with 2 years O&M at Sitarganj Town",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-21",
+    "status": "Open",
+    "publication_date": "2026-08-10",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20230238-03",
+    "source": "EIB",
+    "category": "Ambiente",
+    "first_seen": "2026-08-11T08:00:23.957677"
+  },
+  "EIB-20220943-01": {
+    "title": "Achat et fourniture d’un engin amphibie multifonction de gestion des végétaux aquatiques",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-28",
+    "status": "Open",
+    "publication_date": "2026-08-10",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20220943-01",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-08-11T08:00:23.957677"
+  },
+  "EIB-20130260-20": {
+    "title": "Construction of Çorum (Central) Wastewater Treatment Plant",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-20",
+    "status": "Open",
+    "publication_date": "2026-08-10",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20130260-20",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-08-11T08:00:23.957677"
+  },
+  "EIB-aa-013009001": {
+    "title": "Technical Assistance for the Project “Clean Oceans Initiative – Integrated Solid Waste Management System for Greater Libreville, Gabon”: Detailed Studies.",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-20",
+    "status": "Open",
+    "publication_date": "2026-08-10",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-013009001",
+    "source": "EIB",
+    "category": "Ambiente",
+    "first_seen": "2026-08-11T08:00:23.957677"
   }
 }
