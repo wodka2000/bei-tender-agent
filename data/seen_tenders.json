@@ -10700,5 +10700,44 @@
     "source": "EIB",
     "category": "Ambiente",
     "first_seen": "2026-08-11T08:00:23.957677"
+  },
+  "89156-2017": {
+    "title": "Belgio-Bruxelles: Consulenza legale in materia di proprietà intellettuale",
+    "buyer": "Commissione europea, Joint Research Centre (JRC) — Resources",
+    "country": "BEL",
+    "cpv_codes": "79100000, 79110000, 79120000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-03-10+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/89156-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-12T08:07:29.317264"
+  },
+  "91150-2017": {
+    "title": "Italia-Roma: Gruppo europeo di interesse economico per lo sviluppo dell'Eurasia e del Mediterraneo",
+    "buyer": "Gruppo europeo di interesse economico per lo sviluppo dell'Eurasia e del Mediterraneo",
+    "country": "ITA",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-03-10+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/91150-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-12T08:07:29.317264"
+  },
+  "EIB-20230866-03-tenderinv-cn-2026-08-11-pdf": {
+    "title": "Equipement, essais et mise en service de la transformation 225/60kv au poste existant 225/22kv Ben Slimane II",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-29",
+    "status": "Open",
+    "publication_date": "2026-08-12",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20230866-03-tenderinv-cn-2026-08-11-pdf",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-08-12T08:07:29.317264"
   }
 }
