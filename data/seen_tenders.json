@@ -10739,5 +10739,31 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-08-12T08:07:29.317264"
+  },
+  "93076-2017": {
+    "title": "Belgio-Bruxelles: Servizi di ricerche di mercato",
+    "buyer": "Departement Mobiliteit en Openbare Werken — Afdeling beleid",
+    "country": "BEL",
+    "cpv_codes": "79100000, 79400000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-03-11+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/93076-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-13T08:09:07.055968"
+  },
+  "EIB-20240382-02-tenderinv-cn-2026-08-12-pdf": {
+    "title": "Construction Supervision Services (FIDIC Engineer) for the Construction of the Water Treatment Plant (Filtration Station) in the City of Mykolaiv",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-10-14",
+    "status": "Open",
+    "publication_date": "2026-08-12",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20240382-02-tenderinv-cn-2026-08-12-pdf",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-08-13T08:09:07.055968"
   }
 }
