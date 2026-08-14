@@ -10765,5 +10765,31 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-08-13T08:09:07.055968"
+  },
+  "95283-2017": {
+    "title": "Italia-Cesena: Laptop G.E.I.E.",
+    "buyer": "Laptop G.E.I.E.",
+    "country": "ITA",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-03-14+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/95283-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-14T08:05:27.825468"
+  },
+  "WB-OP00461952": {
+    "title": "Credit Administration Officer",
+    "buyer": "Kafalat",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-08-26",
+    "status": "Open",
+    "publication_date": "2026-08-12",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461952",
+    "source": "World Bank",
+    "category": "Altro",
+    "first_seen": "2026-08-14T08:05:27.825468"
   }
 }
