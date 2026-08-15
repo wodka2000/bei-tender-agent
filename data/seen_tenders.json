@@ -10791,5 +10791,18 @@
     "source": "World Bank",
     "category": "Altro",
     "first_seen": "2026-08-14T08:05:27.825468"
+  },
+  "99975-2017": {
+    "title": "Italia-Bologna: Servizi di rappresentanza legale",
+    "buyer": "Azienda USL di Bologna",
+    "country": "ITA",
+    "cpv_codes": "79112000",
+    "deadline": "2017-04-19",
+    "status": "Closed",
+    "publication_date": "2017-03-17+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/99975-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-15T07:20:06.329292"
   }
 }
