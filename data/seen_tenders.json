@@ -10817,5 +10817,18 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-08-16T07:21:06.863786"
+  },
+  "EIB-20240318-02": {
+    "title": "Procurement of downstream maintenance gates (9 pcs.) for Kaniv HPP",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-08-18",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20240318-02",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-08-19T07:27:58.174140"
   }
 }
