@@ -164,7 +164,7 @@
     "publication_date": "2022-07-21+02:00",
     "source_url": "https://ted.europa.eu/it/notice/-/detail/395986-2022",
     "first_seen": "2026-02-17T23:25:22.788913",
-    "status": "Open",
+    "status": "Closed",
     "category": "Consulenza"
   },
   "696872-2022": {
@@ -10830,5 +10830,18 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-08-19T07:27:58.174140"
+  },
+  "100841-2017": {
+    "title": "Belgio-Bruxelles: ENI — Sostegno allo sviluppo di un sistema di indicazioni geografiche in Ucraina",
+    "buyer": "Unione europea",
+    "country": "BEL",
+    "cpv_codes": "79130000",
+    "deadline": "2017-04-17",
+    "status": "Closed",
+    "publication_date": "2017-03-18+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/100841-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-20T07:30:57.167592"
   }
 }
