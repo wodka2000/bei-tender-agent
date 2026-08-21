@@ -10460,7 +10460,7 @@
     "country": "Egypt, Arab Republic of",
     "cpv_codes": "",
     "deadline": "2026-08-20",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-07-28",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459369",
     "source": "World Bank",
@@ -10843,5 +10843,31 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-08-20T07:30:57.167592"
+  },
+  "102751-2017": {
+    "title": "Italia-Reggio Calabria: Servizi di consulenza giuridica",
+    "buyer": "Città Metropolitana di Reggio Calabria — Stazione Unica Appaltante Provinciale",
+    "country": "ITA",
+    "cpv_codes": "79111000",
+    "deadline": "2017-04-28",
+    "status": "Closed",
+    "publication_date": "2017-03-18+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/102751-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-21T07:32:32.500499"
+  },
+  "102912-2017": {
+    "title": "Italia-Padova: Cuba Commercio e Servizi GEIE",
+    "buyer": "Cuba Commercio e Servizi GEIE",
+    "country": "ITA",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-03-18+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/102912-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-21T07:32:32.500499"
   }
 }
