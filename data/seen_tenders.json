@@ -10869,5 +10869,44 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-08-21T07:32:32.500499"
+  },
+  "102913-2017": {
+    "title": "Belgio-Oostende: Electrawinds SE",
+    "buyer": "Electrawinds SE",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-03-18+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/102913-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-22T07:21:36.171003"
+  },
+  "EIB-project-implementation-consultant-georgia-transport-connectivity-ii": {
+    "title": "Project Implementation Consultant, Georgia Transport Connectivity II",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-09-17",
+    "status": "Open",
+    "publication_date": "2026-08-21",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/project-implementation-consultant-georgia-transport-connectivity-ii",
+    "source": "EIB",
+    "category": "Trasporti",
+    "first_seen": "2026-08-22T07:21:36.171003"
+  },
+  "EIB-20260445-00": {
+    "title": "Design and Construction of Infrastructure & Superstructure Works including Electrification under the İstanbul North Rail Crossing Project (INRAIL)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-10-13",
+    "status": "Open",
+    "publication_date": "2026-08-21",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20260445-00",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-08-22T07:21:36.171003"
   }
 }
