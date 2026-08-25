@@ -9992,7 +9992,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-08-24",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-07-07",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20140649-16",
     "source": "EIB",
@@ -10908,5 +10908,31 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-08-22T07:21:36.171003"
+  },
+  "104112-2017": {
+    "title": "Belgio-Malines: Servizi giuridici",
+    "buyer": "Hulpverleningszone Rivierenland",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-03-21+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/104112-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-25T07:33:28.791926"
+  },
+  "105069-2017": {
+    "title": "Belgio-Bruxelles: Gestione del portafoglio di proprietà intellettuale",
+    "buyer": "Commissione europea, Joint Research Centre (JRC), Resources",
+    "country": "BEL",
+    "cpv_codes": "79110000, 79111000, 79120000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-03-22+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/105069-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-25T07:33:28.791926"
   }
 }
