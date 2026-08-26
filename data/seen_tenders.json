@@ -10934,5 +10934,44 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-08-25T07:33:28.791926"
+  },
+  "105070-2017": {
+    "title": "Belgio-Bruxelles: Servizi relativi alle annualità di brevetti e al rinnovo di marchi",
+    "buyer": "Commissione europea, Joint Research Centre (JRC) — Resources",
+    "country": "BEL",
+    "cpv_codes": "79110000, 79111000, 79120000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-03-22+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/105070-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-26T07:35:12.344295"
+  },
+  "106822-2017": {
+    "title": "Belgio-Hasselt: Servizi giuridici",
+    "buyer": "Stad Hasselt",
+    "country": "BEL",
+    "cpv_codes": "79100000, 79110000",
+    "deadline": "2017-05-12",
+    "status": "Closed",
+    "publication_date": "2017-03-22+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/106822-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-26T07:35:12.344295"
+  },
+  "EIB-20190319-01": {
+    "title": "Technical Advisor for Construction Contracts",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-10-08",
+    "status": "Open",
+    "publication_date": "2026-08-26",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190319-01",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-08-26T07:35:12.344295"
   }
 }
