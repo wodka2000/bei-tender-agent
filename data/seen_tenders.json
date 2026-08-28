@@ -10291,7 +10291,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-08-27",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-07-21",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170671-33",
     "source": "EIB",
@@ -10973,5 +10973,18 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-08-26T07:35:12.344295"
+  },
+  "106831-2017": {
+    "title": "Belgio-Anversa: Servizi giuridici",
+    "buyer": "AG VESPA",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "2017-04-28",
+    "status": "Closed",
+    "publication_date": "2017-03-22+01:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/106831-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-08-28T19:07:01.182023"
   }
 }
