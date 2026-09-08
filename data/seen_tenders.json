@@ -10304,7 +10304,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-09-07",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-07-21",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20140649-19",
     "source": "EIB",
@@ -10999,5 +10999,31 @@
     "source": "World Bank",
     "category": "Costruzioni",
     "first_seen": "2026-09-06T11:24:08.760075"
+  },
+  "EIB-20230238-05": {
+    "title": "Development of Water Supply Scheme (Tube wells, rising mains, OHTs, Distribution System; House Service Connections including Allied Works) with 2 years O&M at Rudrapur Town",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-10-22",
+    "status": "Open",
+    "publication_date": "2026-09-07",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20230238-05",
+    "source": "EIB",
+    "category": "Ambiente",
+    "first_seen": "2026-09-08T11:49:02.675760"
+  },
+  "EIB-20230238-04": {
+    "title": "Development of Water Supply Scheme (Tube wells, rising mains, OHTs, Distribution System &amp; House Service Connections including Allied Works) with 2 years O&M at Kashipur Town",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-10-22",
+    "status": "Open",
+    "publication_date": "2026-09-07",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20230238-04",
+    "source": "EIB",
+    "category": "Ambiente",
+    "first_seen": "2026-09-08T11:49:02.675760"
   }
 }
