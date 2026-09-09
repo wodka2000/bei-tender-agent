@@ -10187,7 +10187,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-09-08",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-07-20",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-013468001",
     "source": "EIB",
@@ -10616,7 +10616,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-09-08",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-08-05",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/cft-1844",
     "source": "EIB",
@@ -11025,5 +11025,31 @@
     "source": "EIB",
     "category": "Ambiente",
     "first_seen": "2026-09-08T11:49:02.675760"
+  },
+  "WB-OP00467575": {
+    "title": "Framework Agreements for the Design & Supervision for Water Infrastructure Repair",
+    "buyer": "Council for Development and Reconstruction",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-09-15",
+    "status": "Open",
+    "publication_date": "2026-09-08",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467575",
+    "source": "World Bank",
+    "category": "Costruzioni",
+    "first_seen": "2026-09-09T12:00:01.690334"
+  },
+  "WB-OP00467562": {
+    "title": "Priority Upstream Feasibility – Directorate General of Civil Status eServices Digitisation",
+    "buyer": "Office of the Minister of State for Administrative Reform",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-10-05",
+    "status": "Open",
+    "publication_date": "2026-09-08",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467562",
+    "source": "World Bank",
+    "category": "Altro",
+    "first_seen": "2026-09-09T12:00:01.690334"
   }
 }
