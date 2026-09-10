@@ -11051,5 +11051,18 @@
     "source": "World Bank",
     "category": "Altro",
     "first_seen": "2026-09-09T12:00:01.690334"
+  },
+  "WB-OP00467532": {
+    "title": "Framework Agreements for the Assessment, Reconstruction Design and Supervision of Totally Damaged Public Buildings",
+    "buyer": "Council for Development and Reconstruction",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-09-15",
+    "status": "Open",
+    "publication_date": "2026-09-09",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467532",
+    "source": "World Bank",
+    "category": "Costruzioni",
+    "first_seen": "2026-09-10T11:54:49.179442"
   }
 }
