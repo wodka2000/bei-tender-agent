@@ -11064,5 +11064,18 @@
     "source": "World Bank",
     "category": "Costruzioni",
     "first_seen": "2026-09-10T11:54:49.179442"
+  },
+  "WB-OP00466302": {
+    "title": "Consulting Firm for ITAS preparation: tax business process re-engineering, legal and regulatory review, and preparation of the ITAS procurement package",
+    "buyer": "Ministry of Finance",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-09-28",
+    "status": "Open",
+    "publication_date": "2026-09-10",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00466302",
+    "source": "World Bank",
+    "category": "Servizi Legali",
+    "first_seen": "2026-09-11T11:53:52.618476"
   }
 }
