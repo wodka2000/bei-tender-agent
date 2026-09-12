@@ -10993,7 +10993,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-09-11",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-09-04",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467056",
     "source": "World Bank",
@@ -11077,5 +11077,44 @@
     "source": "World Bank",
     "category": "Servizi Legali",
     "first_seen": "2026-09-11T11:53:52.618476"
+  },
+  "123522-2017": {
+    "title": "Belgio-Bruxelles: ENI — Sostegno allo sviluppo di un sistema di indicazioni geografiche in Ucraina",
+    "buyer": "Unione europea",
+    "country": "BEL",
+    "cpv_codes": "79130000",
+    "deadline": "2017-04-18",
+    "status": "Closed",
+    "publication_date": "2017-04-04+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/123522-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-09-12T11:20:10.056505"
+  },
+  "WB-OP00467067": {
+    "title": "Framework Agreements for the Design, Structural Assessment and Supervision of Public Buildings (Slightly and Partially Damaged)",
+    "buyer": "Council for Development and Reconstruction",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-09-22",
+    "status": "Open",
+    "publication_date": "2026-09-11",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467067",
+    "source": "World Bank",
+    "category": "Ingegneria",
+    "first_seen": "2026-09-12T11:20:10.056505"
+  },
+  "WB-OP00468332": {
+    "title": "Senior Credit Analyst",
+    "buyer": "Kafalat sal",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-09-25",
+    "status": "Open",
+    "publication_date": "2026-09-11",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00468332",
+    "source": "World Bank",
+    "category": "Altro",
+    "first_seen": "2026-09-12T11:20:10.056505"
   }
 }
