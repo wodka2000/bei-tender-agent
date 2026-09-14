@@ -10408,7 +10408,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-09-13",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-07-28",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-011624003",
     "source": "EIB",
@@ -10499,7 +10499,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-09-13",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-07-30",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20110487-58",
     "source": "EIB",
@@ -11116,5 +11116,18 @@
     "source": "World Bank",
     "category": "Altro",
     "first_seen": "2026-09-12T11:20:10.056505"
+  },
+  "WB-OP00468526": {
+    "title": "Individual consultant to carry out final assessment and evaluation of the regional component of the project \"Sustainable Fishery Development in Red Sea and Gulf of Aden\"-SFISH",
+    "buyer": "The Regional Organization for the Conservation of the Environment of the Red Sea and Gulf of Aden",
+    "country": "Yemen, Republic of",
+    "cpv_codes": "",
+    "deadline": "2026-09-26",
+    "status": "Open",
+    "publication_date": "2026-09-13",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00468526",
+    "source": "World Bank",
+    "category": "Ambiente",
+    "first_seen": "2026-09-14T13:25:39.592357"
   }
 }
