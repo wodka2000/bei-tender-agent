@@ -10486,7 +10486,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-09-14",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-07-31",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170671-32",
     "source": "EIB",
@@ -11129,5 +11129,18 @@
     "source": "World Bank",
     "category": "Ambiente",
     "first_seen": "2026-09-14T13:25:39.592357"
+  },
+  "WB-OP00468630": {
+    "title": "Consulting firm for IFMIS implementation support: business process reengineering, requirements definition, procurement preparation and implementation oversight",
+    "buyer": "Ministry of Finance",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-10-05",
+    "status": "Open",
+    "publication_date": "2026-09-14",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00468630",
+    "source": "World Bank",
+    "category": "Consulenza",
+    "first_seen": "2026-09-15T12:17:33.618164"
   }
 }
