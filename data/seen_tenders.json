@@ -11032,7 +11032,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-09-15",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-09-08",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467575",
     "source": "World Bank",
@@ -11058,7 +11058,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-09-15",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-09-09",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467532",
     "source": "World Bank",
@@ -11142,5 +11142,18 @@
     "source": "World Bank",
     "category": "Consulenza",
     "first_seen": "2026-09-15T12:17:33.618164"
+  },
+  "EIB-20180231-20": {
+    "title": "Supervision of the construction of elementary school City kvart",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-09-16",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20180231-20",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-09-16T12:16:34.476122"
   }
 }
