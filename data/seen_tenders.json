@@ -10603,7 +10603,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-09-17",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-08-07",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190331-14",
     "source": "EIB",
@@ -10889,7 +10889,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-09-17",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-08-21",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/project-implementation-consultant-georgia-transport-connectivity-ii",
     "source": "EIB",
@@ -11155,5 +11155,31 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-09-16T12:16:34.476122"
+  },
+  "133475-2017": {
+    "title": "Belgio-Namur: Servizi di consulenza in materia di brevetti e diritti d'autore",
+    "buyer": "Université de Namur",
+    "country": "BEL",
+    "cpv_codes": "79120000",
+    "deadline": "2017-05-03",
+    "status": "Closed",
+    "publication_date": "2017-04-08+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/133475-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-09-18T11:56:12.015549"
+  },
+  "EIB-20190920-09": {
+    "title": "Renforcement de l’alimentation en eau potable de la ville de Kaolack",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-11-03",
+    "status": "Open",
+    "publication_date": "2026-09-18",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190920-09",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-09-18T11:56:12.015549"
   }
 }
