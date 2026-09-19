@@ -11181,5 +11181,70 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-09-18T11:56:12.015549"
+  },
+  "136182-2017": {
+    "title": "Italia-Firenze: Florence GEIE",
+    "buyer": "Florence GEIE",
+    "country": "ITA",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-04-11+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/136182-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-09-19T11:40:46.573760"
+  },
+  "136183-2017": {
+    "title": "Belgio-Bruxelles: Pragma",
+    "buyer": "Pragma",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-04-11+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/136183-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-09-19T11:40:46.573760"
+  },
+  "136184-2017": {
+    "title": "Belgio-Bruxelles: Groupement européen de l'ingénierie et du conseil en technologies",
+    "buyer": "Groupement européen de l'ingénierie et du conseil en technologies",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-04-11+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/136184-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-09-19T11:40:46.573760"
+  },
+  "136185-2017": {
+    "title": "Belgio-Ciney: Walkena",
+    "buyer": "Walkena",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-04-11+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/136185-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-09-19T11:40:46.573760"
+  },
+  "137765-2017": {
+    "title": "Italia-Bolzano: Servizi di consulenza e informazione giuridica",
+    "buyer": "Agenzia per i procedimenti e la vigilanza in materia di contratti pubblici di lavori, servizi e forniture",
+    "country": "ITA",
+    "cpv_codes": "79100000, 79140000",
+    "deadline": "2017-05-10",
+    "status": "Closed",
+    "publication_date": "2017-04-12+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/137765-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-09-19T11:40:46.573760"
   }
 }
