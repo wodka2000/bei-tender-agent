@@ -11097,7 +11097,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-09-22",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-09-11",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467067",
     "source": "World Bank",
@@ -11246,5 +11246,18 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-09-19T11:40:46.573760"
+  },
+  "144240-2017": {
+    "title": "Belgio-Bruxelles: ENI — Sostegno alla riforma completa della pubblica amministrazione in Ucraina",
+    "buyer": "Unione europea",
+    "country": "BEL",
+    "cpv_codes": "79100000, 79400000",
+    "deadline": "2017-05-22",
+    "status": "Closed",
+    "publication_date": "2017-04-15+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/144240-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-09-23T12:22:18.936068"
   }
 }
