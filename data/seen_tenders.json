@@ -9966,7 +9966,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-09-23",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-07-06",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-012824001",
     "source": "EIB",
@@ -11259,5 +11259,44 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-09-23T12:22:18.936068"
+  },
+  "EIB-20180417-08": {
+    "title": "PROCUREMENT OF A SPARE TRANSFORMER FOR KPONG GENERATING STATION (KGS)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-09-24",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20180417-08",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-09-24T12:21:58.185777"
+  },
+  "EIB-20180417-07": {
+    "title": "SUPPLY AND INSTALLATION OF A LOG BOOM AT THE INTAKE OF THE KPONG DAM",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-09-24",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20180417-07",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-09-24T12:21:58.185777"
+  },
+  "EIB-20180417-06": {
+    "title": "PROCUREMENT OF SURFACE AIR COOLERS FOR KPONG GENERATING STATION (KGS)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-09-24",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20180417-06",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-09-24T12:21:58.185777"
   }
 }
