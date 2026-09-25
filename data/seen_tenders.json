@@ -11298,5 +11298,44 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-09-24T12:21:58.185777"
+  },
+  "EIB-20140041-30": {
+    "title": "Supply and installation of a Veterinary Computed Tomography (CT) Scanner for the final beneficiary Technical University of Moldova (Faculty of Veterinary Medicine)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-11-08",
+    "status": "Open",
+    "publication_date": "2026-09-25",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20140041-30",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-09-25T12:22:38.305619"
+  },
+  "EIB-expression-of-interest-for-consulting-services-re-lao-resilient-roads-framework-loan": {
+    "title": "Expression of Interest for Consulting services LAO RESILIENT ROADS FRAMEWORK LOAN",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-10-21",
+    "status": "Open",
+    "publication_date": "2026-09-24",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/expression-of-interest-for-consulting-services-re-lao-resilient-roads-framework-loan",
+    "source": "EIB",
+    "category": "Consulenza",
+    "first_seen": "2026-09-25T12:22:38.305619"
+  },
+  "WB-OP00470845": {
+    "title": "Independent financial audit",
+    "buyer": "forward MENA",
+    "country": "Lebanon",
+    "cpv_codes": "",
+    "deadline": "2026-10-12",
+    "status": "Open",
+    "publication_date": "2026-09-24",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00470845",
+    "source": "World Bank",
+    "category": "Servizi Finanziari",
+    "first_seen": "2026-09-25T12:22:38.305619"
   }
 }
