@@ -11337,5 +11337,18 @@
     "source": "World Bank",
     "category": "Servizi Finanziari",
     "first_seen": "2026-09-25T12:22:38.305619"
+  },
+  "EIB-20190920-08": {
+    "title": "Travaux de construction de deux chateaux d’eau de capacite 3 200 m3 à Kaolack",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-11-10",
+    "status": "Open",
+    "publication_date": "2026-09-28",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190920-08",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-09-28T14:37:32.927618"
   }
 }
