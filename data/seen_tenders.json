@@ -10668,7 +10668,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-09-28",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-08-10",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20220943-01",
     "source": "EIB",
@@ -11071,7 +11071,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-09-28",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-09-10",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00466302",
     "source": "World Bank",
@@ -11350,5 +11350,18 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-09-28T14:37:32.927618"
+  },
+  "148003-2017": {
+    "title": "Italia-Savona: Servizi di consulenza giuridica",
+    "buyer": "Provincia di Savona",
+    "country": "ITA",
+    "cpv_codes": "79111000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-04-19+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/148003-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-09-29T13:28:28.336089"
   }
 }
