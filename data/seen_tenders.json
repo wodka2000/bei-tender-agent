@@ -11363,5 +11363,18 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-09-29T13:28:28.336089"
+  },
+  "154517-2017": {
+    "title": "Italia-Cividale del Friuli: Servizi di progettazione di edifici",
+    "buyer": "Azienda pubblica di servizi alla persona «Casa per anziani» di Cividale del Friuli",
+    "country": "ITA",
+    "cpv_codes": "71221000",
+    "deadline": "2017-06-15",
+    "status": "Closed",
+    "publication_date": "2017-04-25+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/154517-2017",
+    "source": "TED",
+    "category": "Ingegneria",
+    "first_seen": "2026-10-03T12:07:36.916647"
   }
 }
