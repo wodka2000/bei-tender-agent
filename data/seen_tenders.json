@@ -11045,7 +11045,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-10-05",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-09-08",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467562",
     "source": "World Bank",
@@ -11136,7 +11136,7 @@
     "country": "Lebanon",
     "cpv_codes": "",
     "deadline": "2026-10-05",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-09-14",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00468630",
     "source": "World Bank",
@@ -11376,5 +11376,31 @@
     "source": "TED",
     "category": "Ingegneria",
     "first_seen": "2026-10-03T12:07:36.916647"
+  },
+  "157381-2017": {
+    "title": "Belgio-Laeken: Servizi giuridici",
+    "buyer": "Neo",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "2017-05-22",
+    "status": "Closed",
+    "publication_date": "2017-04-26+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/157381-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-06T13:42:46.338289"
+  },
+  "159604-2017": {
+    "title": "Belgio-Bruxelles: Servizi giuridici",
+    "buyer": "Departement Mobiliteit en Openbare Werken — Organisatie",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "2017-05-30",
+    "status": "Closed",
+    "publication_date": "2017-04-27+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/159604-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-06T13:42:46.338289"
   }
 }
