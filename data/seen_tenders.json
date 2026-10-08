@@ -11415,5 +11415,31 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-10-07T14:01:35.345610"
+  },
+  "EIB-20080194-06": {
+    "title": "Moldova Romania Power Interconnection Phase II",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-10-08",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20080194-06",
+    "source": "EIB",
+    "category": "Energia",
+    "first_seen": "2026-10-08T14:07:52.269089"
+  },
+  "WB-OP00473710": {
+    "title": "developing guidelines for healthcare waste management in Egypt - rebidding process related to activity ref EG-EEAA-474647-CS-CQS",
+    "buyer": "Egyptian Environmental Affairs Agency",
+    "country": "Egypt, Arab Republic of",
+    "cpv_codes": "",
+    "deadline": "2026-11-05",
+    "status": "Open",
+    "publication_date": "2026-10-07",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473710",
+    "source": "World Bank",
+    "category": "Salute",
+    "first_seen": "2026-10-08T14:07:52.269089"
   }
 }
