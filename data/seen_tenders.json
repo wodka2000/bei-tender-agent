@@ -10967,7 +10967,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-10-08",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-08-26",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190319-01",
     "source": "EIB",
@@ -11441,5 +11441,18 @@
     "source": "World Bank",
     "category": "Salute",
     "first_seen": "2026-10-08T14:07:52.269089"
+  },
+  "162222-2017": {
+    "title": "Belgio-Bruxelles: Servizi di consulenza giuridica e di rappresentanza",
+    "buyer": "Régie des Bâtiments",
+    "country": "BEL",
+    "cpv_codes": "79110000, 79400000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-04-28+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/162222-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-09T13:55:47.378438"
   }
 }
