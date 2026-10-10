@@ -11454,5 +11454,18 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-10-09T13:55:47.378438"
+  },
+  "164598-2017": {
+    "title": "Belgio-Anversa: Servizi giuridici",
+    "buyer": "AG VESPA",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "2017-04-28",
+    "status": "Closed",
+    "publication_date": "2017-04-29+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/164598-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-10T13:07:28.905792"
   }
 }
