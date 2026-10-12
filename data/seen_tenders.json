@@ -11467,5 +11467,31 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-10-10T13:07:28.905792"
+  },
+  "EIB-aa-011624003a": {
+    "title": "Climate Action and Sustainability for Corporate",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-11-12",
+    "status": "Open",
+    "publication_date": "2026-10-12",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-011624003a",
+    "source": "EIB",
+    "category": "Ambiente",
+    "first_seen": "2026-10-12T16:12:54.223212"
+  },
+  "WB-OP00473974": {
+    "title": "Consultancy Services for the Assessment and Development of an Electric Mobility Transition Framework for Palestine",
+    "buyer": "Palestinian Energy and Natural Resources Authority",
+    "country": "West Bank and Gaza",
+    "cpv_codes": "",
+    "deadline": "2026-11-01",
+    "status": "Open",
+    "publication_date": "2026-10-11",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473974",
+    "source": "World Bank",
+    "category": "Energia",
+    "first_seen": "2026-10-12T16:12:54.223212"
   }
 }
