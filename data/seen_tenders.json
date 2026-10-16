@@ -11493,5 +11493,57 @@
     "source": "World Bank",
     "category": "Energia",
     "first_seen": "2026-10-12T16:12:54.223212"
+  },
+  "168946-2017": {
+    "title": "Belgio-Bruxelles: Mydeed",
+    "buyer": "Mydeed",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-05-04+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/168946-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-16T11:58:12.093574"
+  },
+  "168947-2017": {
+    "title": "Lussemburgo-Luxembourg: Flaming Sword",
+    "buyer": "Flaming Sword",
+    "country": "LUX",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-05-04+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/168947-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-16T11:58:12.093574"
+  },
+  "168948-2017": {
+    "title": "Italia-Mendicino: Smart-Islands GEIE in liquidazione",
+    "buyer": "Smart-Islands GEIE in liquidazione",
+    "country": "ITA",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-05-04+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/168948-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-16T11:58:12.093574"
+  },
+  "168949-2017": {
+    "title": "Belgio-Jambes: Eurojuris International",
+    "buyer": "Eurojuris International",
+    "country": "BEL",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-05-04+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/168949-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-16T11:58:12.093574"
   }
 }
