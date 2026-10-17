@@ -8237,7 +8237,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-10-16",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-03-10",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20100483-12-cn",
     "source": "EIB",
@@ -11545,5 +11545,18 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-10-16T11:58:12.093574"
+  },
+  "169050-2017": {
+    "title": "Belgio-Bruxelles: Assistenza tecnica, economica e giuridica nei settori dell'energia, della mobilità e dei trasporti, lotto 1 — assistenza giuridica nel settore dell'energia",
+    "buyer": "Commissione europea, Shared Resource Directorate for Directorate-General for Energy and Directorate-General for Mobility and Transport",
+    "country": "BEL",
+    "cpv_codes": "79111000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-05-05+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/169050-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-17T11:14:17.569969"
   }
 }
