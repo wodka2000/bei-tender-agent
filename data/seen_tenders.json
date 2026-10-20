@@ -11571,5 +11571,18 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-10-18T11:49:02.291979"
+  },
+  "171099-2017": {
+    "title": "Lussemburgo-Luxemburg: Electrawinds SE",
+    "buyer": "Electrawinds SE",
+    "country": "LUX",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-05-05+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/171099-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-20T12:20:31.530795"
   }
 }
