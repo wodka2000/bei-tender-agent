@@ -11318,7 +11318,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-10-21",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-09-24",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/expression-of-interest-for-consulting-services-re-lao-resilient-roads-framework-loan",
     "source": "EIB",
@@ -11597,5 +11597,18 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-10-21T12:30:12.709187"
+  },
+  "EIB-cft-1856": {
+    "title": "Provision of Occasional Passenger Transport Services for the EIB Group",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-11-12",
+    "status": "Open",
+    "publication_date": "2026-09-30",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/cft-1856",
+    "source": "EIB",
+    "category": "Trasporti",
+    "first_seen": "2026-10-22T12:34:24.526944"
   }
 }
