@@ -11623,5 +11623,18 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-10-27T12:48:49.453287"
+  },
+  "179261-2017": {
+    "title": "Lussemburgo-Luxemburg: Clanoma SE",
+    "buyer": "Clanoma SE",
+    "country": "LUX",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-05-11+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/179261-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-28T13:38:09.690442"
   }
 }
