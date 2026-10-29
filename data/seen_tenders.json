@@ -11636,5 +11636,31 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-10-28T13:38:09.690442"
+  },
+  "EIB-maa-010010": {
+    "title": "Green Gateway Advisory Programme II",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-11-29",
+    "status": "Open",
+    "publication_date": "2026-10-28",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/maa-010010",
+    "source": "EIB",
+    "category": "Consulenza",
+    "first_seen": "2026-10-29T13:47:48.138652"
+  },
+  "WB-OP00477762": {
+    "title": "TRA Capacity Building on Technical, Economic, and Security Regulation",
+    "buyer": "Ministry of Telecommunication and Information Technology",
+    "country": "West Bank and Gaza",
+    "cpv_codes": "",
+    "deadline": "2026-11-18",
+    "status": "Open",
+    "publication_date": "2026-10-28",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477762",
+    "source": "World Bank",
+    "category": "Formazione",
+    "first_seen": "2026-10-29T13:47:48.138652"
   }
 }
