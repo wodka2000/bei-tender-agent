@@ -11662,5 +11662,18 @@
     "source": "World Bank",
     "category": "Formazione",
     "first_seen": "2026-10-29T13:47:48.138652"
+  },
+  "181217-2017": {
+    "title": "Lussemburgo-Lussemburgo: BEI - Prestazione di servizi di consulenza per la Banca europea per gli investimenti (BEI) in materia di controllo finanziario",
+    "buyer": "Banca europea per gli investimenti",
+    "country": "LUX",
+    "cpv_codes": "79400000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-05-13+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/181217-2017",
+    "source": "TED",
+    "category": "Consulenza",
+    "first_seen": "2026-10-30T13:41:03.626049"
   }
 }
