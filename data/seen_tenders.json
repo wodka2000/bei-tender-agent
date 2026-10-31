@@ -11675,5 +11675,31 @@
     "source": "TED",
     "category": "Consulenza",
     "first_seen": "2026-10-30T13:41:03.626049"
+  },
+  "182898-2017": {
+    "title": "Lussemburgo-Lussemburgo: BEI - Prestazione di servizi di consulenza per la Banca europea per gli investimenti (BEI) in materia di controllo finanziario",
+    "buyer": "Banca europea per gli investimenti",
+    "country": "LUX",
+    "cpv_codes": "79400000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-05-17+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/182898-2017",
+    "source": "TED",
+    "category": "Consulenza",
+    "first_seen": "2026-10-31T13:09:48.943348"
+  },
+  "185624-2017": {
+    "title": "Belgio-Bruxelles: Servizi di consulenza e informazione giuridica",
+    "buyer": "School Invest NV",
+    "country": "BEL",
+    "cpv_codes": "79140000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-05-17+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/185624-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-10-31T13:09:48.943348"
   }
 }
