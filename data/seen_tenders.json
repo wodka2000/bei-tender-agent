@@ -11175,7 +11175,7 @@
     "country": "LUX",
     "cpv_codes": "",
     "deadline": "2026-11-03",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-09-18",
     "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190920-09",
     "source": "EIB",
@@ -11701,5 +11701,57 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-10-31T13:09:48.943348"
+  },
+  "185940-2017": {
+    "title": "Belgio-Bruxelles: Contratto quadro di servizi relativo alla prestazione di assistenza per l'attuazione dei sistemi di prestazioni e tariffazione per il servizio di navigazione aerea",
+    "buyer": "Directorate-General for Mobility and Transport, Directorate E — Aviation",
+    "country": "BEL",
+    "cpv_codes": "79140000, 79419000",
+    "deadline": "2017-06-19",
+    "status": "Closed",
+    "publication_date": "2017-05-18+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/185940-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-11-04T14:55:13.527656"
+  },
+  "188107-2017": {
+    "title": "Lussemburgo-Luxembourg: SB SE",
+    "buyer": "SB SE",
+    "country": "LUX",
+    "cpv_codes": "79100000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-05-18+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/188107-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-11-04T14:55:13.527656"
+  },
+  "EIB-20190875-03": {
+    "title": "Recrutement de consultants pour la réalisation d’études en vue de la mise en place du système intégré de gestion des activités forestières du MINEF (SIGEF), du système intégré de gestion environnementale et sociale du PRDF CI (SIGES) et du système de veille incendie des forêts de Côte d’Ivoire",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-12-02",
+    "status": "Open",
+    "publication_date": "2026-11-03",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190875-03",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-11-04T14:55:13.527656"
+  },
+  "EIB-20190875-02": {
+    "title": "Recrutement de consultance pour la réalisation de la cartographie socio économique et communautaire des zones d’intervention du PRDF CI",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-12-02",
+    "status": "Open",
+    "publication_date": "2026-11-03",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20190875-02",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-11-04T14:55:13.527656"
   }
 }
