@@ -11753,5 +11753,57 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-11-04T14:55:13.527656"
+  },
+  "EIB-20170338-39": {
+    "title": "Senior Water Utility Management Specialist",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-11-19",
+    "status": "Open",
+    "publication_date": "2026-11-05",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170338-39",
+    "source": "EIB",
+    "category": "Ambiente",
+    "first_seen": "2026-11-05T15:00:12.187163"
+  },
+  "EIB-20170338-37": {
+    "title": "Procurement Officer",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-11-19",
+    "status": "Open",
+    "publication_date": "2026-11-05",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170338-37",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-11-05T15:00:12.187163"
+  },
+  "EIB-20170338-38": {
+    "title": "Senior Supervisor Engineer",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-11-19",
+    "status": "Open",
+    "publication_date": "2026-11-05",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170338-38",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-11-05T15:00:12.187163"
+  },
+  "EIB-20210682-05": {
+    "title": "Construction of Koh Khsach Tonlea Bridge and Approach Roads (KTB Project)",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2027-05-31",
+    "status": "Open",
+    "publication_date": "2026-11-05",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20210682-05",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-11-05T15:00:12.187163"
   }
 }
