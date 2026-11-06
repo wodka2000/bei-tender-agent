@@ -11435,7 +11435,7 @@
     "country": "Egypt, Arab Republic of",
     "cpv_codes": "",
     "deadline": "2026-11-05",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-10-07",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473710",
     "source": "World Bank",
@@ -11805,5 +11805,31 @@
     "source": "EIB",
     "category": "Costruzioni",
     "first_seen": "2026-11-05T15:00:12.187163"
+  },
+  "EIB-20230238-06": {
+    "title": "Development of Water Supply System (intake works, rising main, OHT/CWR, distribution system, pump house, house service connections and allied works), including 2 year O&M, at Pithoragarh in Uttarakhand.",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-12-21",
+    "status": "Open",
+    "publication_date": "2026-11-06",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20230238-06",
+    "source": "EIB",
+    "category": "Ambiente",
+    "first_seen": "2026-11-06T14:39:53.783410"
+  },
+  "EIB-20170338-36": {
+    "title": "Procurement Officer",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-11-19",
+    "status": "Open",
+    "publication_date": "2026-11-05",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170338-36",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-11-06T14:39:53.783410"
   }
 }
