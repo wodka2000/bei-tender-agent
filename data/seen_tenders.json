@@ -11844,5 +11844,31 @@
     "source": "World Bank",
     "category": "Altro",
     "first_seen": "2026-11-10T15:16:51.286103"
+  },
+  "203305-2017": {
+    "title": "Belgio-Bruxelles: Servizi di rappresentanza legale",
+    "buyer": "Vlaams Energieagentschap",
+    "country": "BEL",
+    "cpv_codes": "79112000",
+    "deadline": "2017-07-12",
+    "status": "Closed",
+    "publication_date": "2017-05-27+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/203305-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-11-12T15:38:52.802737"
+  },
+  "EIB-20220280-01": {
+    "title": "Bangladesh - Matarbari 70 MWac Grid Tied Solar Power Project",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2026-12-09",
+    "status": "Open",
+    "publication_date": "2026-11-14",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20220280-01",
+    "source": "EIB",
+    "category": "Energia",
+    "first_seen": "2026-11-12T15:38:52.802737"
   }
 }
