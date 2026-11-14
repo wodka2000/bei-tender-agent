@@ -11870,5 +11870,18 @@
     "source": "EIB",
     "category": "Energia",
     "first_seen": "2026-11-12T15:38:52.802737"
+  },
+  "203754-2017": {
+    "title": "Belgio-Bruxelles: Vendita all'asta delle quote di emissione e sorveglianza del mercato del carbonio",
+    "buyer": "Commissione europea, Directorate-General for Climate Action, SRD.2 — Finance",
+    "country": "BEL",
+    "cpv_codes": "79111000, 79410000, 79418000",
+    "deadline": "2017-07-12",
+    "status": "Closed",
+    "publication_date": "2017-05-30+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/203754-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-11-14T13:50:31.728699"
   }
 }
