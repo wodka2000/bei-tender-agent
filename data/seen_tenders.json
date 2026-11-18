@@ -11883,5 +11883,57 @@
     "source": "TED",
     "category": "Servizi Legali",
     "first_seen": "2026-11-14T13:50:31.728699"
+  },
+  "208002-2017": {
+    "title": "Italia-Trento: Servizi di consulenza e consultazione ingegneristica",
+    "buyer": "Provincia Autonoma di Trento — Agenzia Provinciale per gli Appalti e contratti — Servizio Appalti — Ufficio Gare",
+    "country": "ITA",
+    "cpv_codes": "79111000, 79419000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-06-01+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/208002-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-11-18T16:00:38.102774"
+  },
+  "211249-2017": {
+    "title": "Belgio-Bruxelles: Servizi pensionistici",
+    "buyer": "Consortium of the Retirement Savings Vehicle for European Research Institutions acting on behalf of RESAVER IORP",
+    "country": "BEL",
+    "cpv_codes": "79140000",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2017-06-02+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/211249-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-11-18T16:00:38.102774"
+  },
+  "211407-2017": {
+    "title": "Lussemburgo-Lussemburgo: BEI - Accordo quadro relativo ad una vasta gamma di studi e lavori tecnici di gestione degli impianti",
+    "buyer": "Banca europea per gli investimenti",
+    "country": "LUX",
+    "cpv_codes": "79417000",
+    "deadline": "2017-07-21",
+    "status": "Closed",
+    "publication_date": "2017-06-03+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/211407-2017",
+    "source": "TED",
+    "category": "Consulenza",
+    "first_seen": "2026-11-18T16:00:38.102774"
+  },
+  "EIB-20170224-30": {
+    "title": "4ta Adquisición de Equipos — GIRSU Jujuy",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "",
+    "status": "Unknown",
+    "publication_date": "2026-11-18",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20170224-30",
+    "source": "EIB",
+    "category": "Altro",
+    "first_seen": "2026-11-18T16:00:38.102774"
   }
 }
