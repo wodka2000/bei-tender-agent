@@ -11656,7 +11656,7 @@
     "country": "West Bank and Gaza",
     "cpv_codes": "",
     "deadline": "2026-11-18",
-    "status": "Open",
+    "status": "Closed",
     "publication_date": "2026-10-28",
     "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477762",
     "source": "World Bank",
@@ -11935,5 +11935,44 @@
     "source": "EIB",
     "category": "Altro",
     "first_seen": "2026-11-18T16:00:38.102774"
+  },
+  "211409-2017": {
+    "title": "Lussemburgo-Lussemburgo: BEI - Invito a manifestare interesse per la selezione di intermediari finanziari che riceveranno risorse dal fondo di fondi «Mazowieckie» per attuare uno strumento finanziario nel voivodato della Masovia, Polonia",
+    "buyer": "Banca europea per gli investimenti",
+    "country": "LUX",
+    "cpv_codes": "66171000",
+    "deadline": "2017-07-04",
+    "status": "Closed",
+    "publication_date": "2017-06-03+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/211409-2017",
+    "source": "TED",
+    "category": "Servizi Finanziari",
+    "first_seen": "2026-11-19T16:07:36.182672"
+  },
+  "211410-2017": {
+    "title": "Lussemburgo-Lussemburgo: BEI - Invito a manifestare interesse per la selezione di intermediari finanziari che riceveranno risorse dal fondo di fondi «Silesia» per attuare uno strumento finanziario nel voivodato della Slesia, Polonia",
+    "buyer": "Banca europea per gli investimenti",
+    "country": "LUX",
+    "cpv_codes": "66171000",
+    "deadline": "2017-07-05",
+    "status": "Closed",
+    "publication_date": "2017-06-03+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/211410-2017",
+    "source": "TED",
+    "category": "Servizi Finanziari",
+    "first_seen": "2026-11-19T16:07:36.182672"
+  },
+  "211411-2017": {
+    "title": "Lussemburgo-Lussemburgo: BEI - Invito a manifestare interesse per la selezione di intermediari finanziari che riceveranno risorse dal fondo di fondi «Pomorskie» per attuare uno strumento finanziario nel voivodato della Pomerania, Polonia",
+    "buyer": "Banca europea per gli investimenti",
+    "country": "LUX",
+    "cpv_codes": "66171000",
+    "deadline": "2017-07-05",
+    "status": "Closed",
+    "publication_date": "2017-06-03+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/211411-2017",
+    "source": "TED",
+    "category": "Servizi Finanziari",
+    "first_seen": "2026-11-19T16:07:36.182672"
   }
 }
