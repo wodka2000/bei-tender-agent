@@ -12000,5 +12000,31 @@
     "source": "World Bank",
     "category": "IT / Digitale",
     "first_seen": "2026-11-20T15:48:10.524194"
+  },
+  "EIB-20110487-67": {
+    "title": "Ukraine Municipal Infrastructure Programme / Thermal Modernization of the Buildings of Public Educational Institutions of Ternopil, Ukraine – Phase 2",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2027-01-17",
+    "status": "Open",
+    "publication_date": "2026-11-23",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/20110487-67",
+    "source": "EIB",
+    "category": "Costruzioni",
+    "first_seen": "2026-11-23T18:48:48.895991"
+  },
+  "EIB-aa-013481001": {
+    "title": "Lviv Railway Node Study and Pre‑Feasibility Study for the Lviv–Chernivtsi 1435 Railway Connection",
+    "buyer": "European Investment Bank (EIB)",
+    "country": "LUX",
+    "cpv_codes": "",
+    "deadline": "2027-01-17",
+    "status": "Open",
+    "publication_date": "2026-11-23",
+    "source_url": "https://www.eib.org/en/about/procurement/calls/all/aa-013481001",
+    "source": "EIB",
+    "category": "Trasporti",
+    "first_seen": "2026-11-23T18:48:48.895991"
   }
 }
