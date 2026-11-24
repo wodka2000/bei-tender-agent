@@ -12026,5 +12026,31 @@
     "source": "EIB",
     "category": "Trasporti",
     "first_seen": "2026-11-23T18:48:48.895991"
+  },
+  "221942-2017": {
+    "title": "Italia-Bologna: Servizi di certificazione",
+    "buyer": "HERA SpA",
+    "country": "ITA",
+    "cpv_codes": "79132000",
+    "deadline": "2017-07-12",
+    "status": "Closed",
+    "publication_date": "2017-06-10+02:00",
+    "source_url": "https://ted.europa.eu/it/notice/-/detail/221942-2017",
+    "source": "TED",
+    "category": "Servizi Legali",
+    "first_seen": "2026-11-24T18:25:17.499204"
+  },
+  "WB-OP00483215": {
+    "title": "SIFMIS Program Manager",
+    "buyer": "Ministry of Finance",
+    "country": "Syrian Arab Republic",
+    "cpv_codes": "",
+    "deadline": "2026-12-11",
+    "status": "Open",
+    "publication_date": "2026-11-23",
+    "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00483215",
+    "source": "World Bank",
+    "category": "Altro",
+    "first_seen": "2026-11-24T18:25:17.499204"
   }
 }
